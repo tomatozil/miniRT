@@ -25,7 +25,7 @@ t_cam	cam_set(t_canvas canvas, t_point3 origin)
 	cam.dir_horizontal = vec3(cam.viewport_w, 0, 0);
 	cam.dir_vertical = vec3(0, cam.viewport_h, 0);
 	cam.left_bottom = vec3_minus(cam.origin, vec3(0, 0, cam.focal_len));
-	cam.left_bottom = vec3_minus(cam.left_bottom, vec3_devide(cam.dir_vertical, 2));
-	cam.left_bottom = vec3_minus(cam.left_bottom, vec3_devide(cam.dir_horizontal, 2));
+	cam.left_bottom = vec3_minus(cam.left_bottom, vec3_devide_t(cam.dir_vertical, 2));
+	cam.left_bottom = vec3_minus(cam.left_bottom, vec3_devide_t(cam.dir_horizontal, 2));
 	return (cam);
 }

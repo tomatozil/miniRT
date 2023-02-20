@@ -14,7 +14,7 @@ t_vec3	vec3_minus(t_vec3 vec1, t_vec3 vec2);
 double	vec3_dot(t_vec3 vec1, t_vec3 vec2);
 t_vec3	vec3_cross(t_vec3 vec1, t_vec3 vec2);
 t_vec3	vec3_unit(t_vec3 vec);
-t_vec3	vec3_mult(t_vec3 vec, double t);
-t_vec3	vec3_devide(t_vec3 vec, double t);
+t_vec3	vec3_mult_t(t_vec3 vec, double t);
+t_vec3	vec3_devide_t(t_vec3 vec, double t);
 
 #endif

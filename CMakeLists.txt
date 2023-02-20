@@ -12,5 +12,5 @@ add_executable(miniRT
         scene.c
         object.c
         hit.c
-        )
+        list.c includes/list.h includes/object.h)
 

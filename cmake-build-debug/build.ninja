@@ -48,42 +48,49 @@ build cmake_object_order_depends_target_miniRT: phony || CMakeFiles/miniRT.dir
 
 build CMakeFiles/miniRT.dir/main.c.o: C_COMPILER__miniRT_Debug /Users/jiyun/miniRT/main.c || cmake_object_order_depends_target_miniRT
   DEP_FILE = CMakeFiles/miniRT.dir/main.c.o.d
-  FLAGS = -lmlx -L../mlx -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu99
+  FLAGS = -lmlx -L../mlx -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu99
   INCLUDES = -I/Users/jiyun/miniRT/includes
   OBJECT_DIR = CMakeFiles/miniRT.dir
   OBJECT_FILE_DIR = CMakeFiles/miniRT.dir
 
 build CMakeFiles/miniRT.dir/vector.c.o: C_COMPILER__miniRT_Debug /Users/jiyun/miniRT/vector.c || cmake_object_order_depends_target_miniRT
   DEP_FILE = CMakeFiles/miniRT.dir/vector.c.o.d
-  FLAGS = -lmlx -L../mlx -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu99
+  FLAGS = -lmlx -L../mlx -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu99
   INCLUDES = -I/Users/jiyun/miniRT/includes
   OBJECT_DIR = CMakeFiles/miniRT.dir
   OBJECT_FILE_DIR = CMakeFiles/miniRT.dir
 
 build CMakeFiles/miniRT.dir/ray.c.o: C_COMPILER__miniRT_Debug /Users/jiyun/miniRT/ray.c || cmake_object_order_depends_target_miniRT
   DEP_FILE = CMakeFiles/miniRT.dir/ray.c.o.d
-  FLAGS = -lmlx -L../mlx -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu99
+  FLAGS = -lmlx -L../mlx -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu99
   INCLUDES = -I/Users/jiyun/miniRT/includes
   OBJECT_DIR = CMakeFiles/miniRT.dir
   OBJECT_FILE_DIR = CMakeFiles/miniRT.dir
 
 build CMakeFiles/miniRT.dir/scene.c.o: C_COMPILER__miniRT_Debug /Users/jiyun/miniRT/scene.c || cmake_object_order_depends_target_miniRT
   DEP_FILE = CMakeFiles/miniRT.dir/scene.c.o.d
-  FLAGS = -lmlx -L../mlx -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu99
+  FLAGS = -lmlx -L../mlx -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu99
   INCLUDES = -I/Users/jiyun/miniRT/includes
   OBJECT_DIR = CMakeFiles/miniRT.dir
   OBJECT_FILE_DIR = CMakeFiles/miniRT.dir
 
 build CMakeFiles/miniRT.dir/object.c.o: C_COMPILER__miniRT_Debug /Users/jiyun/miniRT/object.c || cmake_object_order_depends_target_miniRT
   DEP_FILE = CMakeFiles/miniRT.dir/object.c.o.d
-  FLAGS = -lmlx -L../mlx -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu99
+  FLAGS = -lmlx -L../mlx -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu99
   INCLUDES = -I/Users/jiyun/miniRT/includes
   OBJECT_DIR = CMakeFiles/miniRT.dir
   OBJECT_FILE_DIR = CMakeFiles/miniRT.dir
 
 build CMakeFiles/miniRT.dir/hit.c.o: C_COMPILER__miniRT_Debug /Users/jiyun/miniRT/hit.c || cmake_object_order_depends_target_miniRT
   DEP_FILE = CMakeFiles/miniRT.dir/hit.c.o.d
-  FLAGS = -lmlx -L../mlx -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu99
+  FLAGS = -lmlx -L../mlx -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu99
+  INCLUDES = -I/Users/jiyun/miniRT/includes
+  OBJECT_DIR = CMakeFiles/miniRT.dir
+  OBJECT_FILE_DIR = CMakeFiles/miniRT.dir
+
+build CMakeFiles/miniRT.dir/list.c.o: C_COMPILER__miniRT_Debug /Users/jiyun/miniRT/list.c || cmake_object_order_depends_target_miniRT
+  DEP_FILE = CMakeFiles/miniRT.dir/list.c.o.d
+  FLAGS = -lmlx -L../mlx -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fcolor-diagnostics -std=gnu99
   INCLUDES = -I/Users/jiyun/miniRT/includes
   OBJECT_DIR = CMakeFiles/miniRT.dir
   OBJECT_FILE_DIR = CMakeFiles/miniRT.dir
@@ -96,8 +103,8 @@ build CMakeFiles/miniRT.dir/hit.c.o: C_COMPILER__miniRT_Debug /Users/jiyun/miniR
 #############################################
 # Link the executable miniRT
 
-build miniRT: C_EXECUTABLE_LINKER__miniRT_Debug CMakeFiles/miniRT.dir/main.c.o CMakeFiles/miniRT.dir/vector.c.o CMakeFiles/miniRT.dir/ray.c.o CMakeFiles/miniRT.dir/scene.c.o CMakeFiles/miniRT.dir/object.c.o CMakeFiles/miniRT.dir/hit.c.o
-  FLAGS = -lmlx -L../mlx -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+build miniRT: C_EXECUTABLE_LINKER__miniRT_Debug CMakeFiles/miniRT.dir/main.c.o CMakeFiles/miniRT.dir/vector.c.o CMakeFiles/miniRT.dir/ray.c.o CMakeFiles/miniRT.dir/scene.c.o CMakeFiles/miniRT.dir/object.c.o CMakeFiles/miniRT.dir/hit.c.o CMakeFiles/miniRT.dir/list.c.o
+  FLAGS = -lmlx -L../mlx -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
   OBJECT_DIR = CMakeFiles/miniRT.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -147,14 +154,14 @@ build all: phony miniRT
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/jiyun/miniRT/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/jiyun/miniRT/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################

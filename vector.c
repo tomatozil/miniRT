@@ -95,7 +95,7 @@ t_vec3	vec3_unit(t_vec3 vec)
 }
 
 // 벡터 스칼라 곱하기(길이 늘리기), 스칼라 나누기 ?
-t_vec3	vec3_mult(t_vec3 vec, double t)
+t_vec3	vec3_mult_t(t_vec3 vec, double t)
 {
 	t_vec3	new;
 
@@ -105,7 +105,7 @@ t_vec3	vec3_mult(t_vec3 vec, double t)
 	return (new);
 }
 
-t_vec3	vec3_devide(t_vec3 vec, double t)
+t_vec3	vec3_devide_t(t_vec3 vec, double t)
 {
 	t_vec3	new;
 

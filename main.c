@@ -47,6 +47,7 @@ int main()
 	t_cam	cam;
 	t_ray	ray;
 	t_color3 colors;
+	t_object	*objects;
 
 	char	*dst;
 
@@ -59,7 +60,9 @@ int main()
 	// camera
 	cam = cam_set(canvas, point3(0, 0, 0));
 
-	t_sphere	sphere = sphere_set(point3(0, 0, -5), 2);
+	objects =  object(SPHERE, sphere(point3(2, 0, -5) , 2));
+	obj_add(&objects, object(SPHERE, sphere(point3(-2, 0, -5) , 2)));
+	obj_add(&objects, object(SPHERE, sphere(point3(-2, 4, -11) , 2)));
 
 	// render with ray
 	int j = 0;
@@ -71,7 +74,7 @@ int main()
 			double u = (double)i / (canvas.canvas_w - 1);
 			double v = (canvas.canvas_h - 1 - (double)j) / (canvas.canvas_h - 1);
 			ray = ray_primary(cam, u, v);
-			colors = ray_color(ray, sphere);
+			colors = ray_color(ray, objects);
 			int r = 255.999 * colors.x;
 			int g = 255.999 * colors.y;
 			int b = 255.999 * colors.z;

@@ -3,6 +3,7 @@
 
 # include "minirt.h"
 
-double	hit_sphere(t_sphere sphere, t_ray ray);
+int	hit(t_object *object, t_ray ray, t_hit_record *rec);
+int	hit_sphere(t_object *object, t_ray ray, t_hit_record *rec);
 
 #endif
