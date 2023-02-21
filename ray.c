@@ -29,19 +29,23 @@ t_ray	ray_primary(t_cam cam, double horiz, double verti)
 	return (ray_p);
 }
 
-t_color3	ray_color(t_ray ray, t_object *objects)
+t_color3	ray_color(t_scene *scene, int depth)
 {
 	double	t;
-	t_hit_record	rec;
 
-	rec.t_min = 0;
-	rec.t_max = 214748;
-	if (hit(objects, ray, &rec))
-		return (vec3_mult_t(vec3_plus(rec.normal_v, color3(1.0, 1.0, 1.0)), 0.5));
-//		return (vec3_devide_t(color3(rec.normal_v.x + 1, rec.normal_v.y + 1, rec.normal_v.z + 1), 2.0));
+	scene->rec = record_init();
+	if (depth <= 0)
+		return (color3(0, 0, 0));
+	if (hit(scene->objects, scene->ray, &scene->rec))
+	{
+		lighting_set(scene)
+		return (0.5 * );
+	}
+//		return (vec3_mult_t(vec3_plus(scene->rec.normal_v, color3(1.0, 1.0, 1.0)), 0.5));
+//		return (vec3_devide_t(color3(scene->rec.normal_v.x + 1, scene->rec.normal_v.y + 1, scene->rec.normal_v.z + 1), 2.0));
 	// -1 < n.y < 1
 	// 0 < n.y + 1 < 2
 	// 0 < (n.y + 1) / 2 < 1
-	t = 0.5 * (ray.dir_v.y + 1.0); // 0.0 < (y + 1.0) / 2 < 1.0 (y좌표를 기준으로 그라데이션 주기 -> 범위 정하기)
+	t = 0.5 * (scene->ray.dir_v.y + 1.0); // 0.0 < (y + 1.0) / 2 < 1.0 (y좌표를 기준으로 그라데이션 주기 -> 범위 정하기)
 	return (vec3_plus(vec3_mult_t(color3(1.0, 1.0, 1.0), 1.0 - t), vec3_mult_t(color3(0.5, 0.7, 1.0), t)));
 }

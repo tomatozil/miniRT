@@ -42,39 +42,33 @@ void	my_mlx_pixel_put(t_mlx *data, int x, int y)
 
 int main()
 {
-	const t_canvas	canvas = canvas_set(720, 360);
 	t_mlx	data = {0, 0, 0, 0, 0, 0, 0};
-	t_cam	cam;
-	t_ray	ray;
-	t_color3 colors;
-	t_object	*objects;
+	t_scene		*scene;
+	t_color3	colors;
+	int max_depth = 30;
 
 	char	*dst;
 
+	scene = scene_init();
+
 	// mlx setting
 	data.mlx = mlx_init();
-	data.win = mlx_new_window(data.mlx, canvas.canvas_w, canvas.canvas_h, "test");
-	data.img = mlx_new_image(data.mlx, canvas.canvas_w, canvas.canvas_h);
+	data.win = mlx_new_window(data.mlx, scene->canvas.canvas_w, scene->canvas.canvas_h, "test");
+	data.img = mlx_new_image(data.mlx, scene->canvas.canvas_w, scene->canvas.canvas_h);
 	data.addr = mlx_get_data_addr(data.img, &data.bits_per_pixel, &data.size_line, &data.endian);
 
-	// camera
-	cam = cam_set(canvas, point3(0, 0, 0));
-
-	objects =  object(SPHERE, sphere(point3(2, 0, -5) , 2));
-	obj_add(&objects, object(SPHERE, sphere(point3(-2, 0, -5) , 2)));
-	obj_add(&objects, object(SPHERE, sphere(point3(-2, 4, -11) , 2)));
 
 	// render with ray
 	int j = 0;
-	while (j < canvas.canvas_h)
+	while (j < scene->canvas.canvas_h)
 	{
 		int i = 0;
-		while (i < canvas.canvas_w)
+		while (i < scene->canvas.canvas_w)
 		{
-			double u = (double)i / (canvas.canvas_w - 1);
-			double v = (canvas.canvas_h - 1 - (double)j) / (canvas.canvas_h - 1);
-			ray = ray_primary(cam, u, v);
-			colors = ray_color(ray, objects);
+			double u = (double)i / (scene->canvas.canvas_w - 1);
+			double v = (scene->canvas.canvas_h - 1 - (double)j) / (scene->canvas.canvas_h - 1);
+			scene->ray = ray_primary(scene->cam, u, v);
+			colors = ray_color(scene, max_depth);
 			int r = 255.999 * colors.x;
 			int g = 255.999 * colors.y;
 			int b = 255.999 * colors.z;

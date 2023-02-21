@@ -3,6 +3,8 @@
 
 # define FALSE 0
 # define TRUE 1
+# define POINT_LIGHT 1
+# define EPSILON 1e-6
 
 typedef enum e_obj_type
 {
@@ -60,6 +62,7 @@ typedef struct s_object
 	t_obj_type	type;
 	void		*element;
 	void		*next;
+	t_color3	albedo;
 }	t_object;
 
 typedef struct s_sphere
@@ -77,6 +80,25 @@ typedef struct s_hit_record
 	double		t_min; // t가 음수면 광선이 뒤를 향하는 것 = 카메라 뒤에 있는 것
 	double 		t_max; // 너무 멀 경우
 	int 		front_face;
+	t_color3	albedo;
 }	t_hit_record;
+
+typedef struct s_light
+{
+	t_point3	origin;
+	t_color3	amount;
+	double		bright_ratio;
+}	t_light;
+
+typedef struct s_scene
+{
+	t_canvas		canvas;
+	t_cam			cam;
+	t_object		*objects;
+	t_object		*lights;
+	t_color3		ambient;
+	t_ray			ray;
+	t_hit_record	rec;
+}	t_scene;
 
 #endif

@@ -16,4 +16,7 @@
 # include "list.h"
 # include "object.h"
 
+t_scene			*scene_init(void);
+t_hit_record	record_init(void);
+
 #endif

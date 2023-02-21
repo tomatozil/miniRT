@@ -29,11 +29,9 @@ int	hit(t_object *object, t_ray ray, t_hit_record *rec)
 
 void	set_face_normal(t_ray ray, t_hit_record *rec)
 {
-	double dot_result;
-	dot_result = vec3_dot(ray.dir_v, rec->normal_v);
-	if (dot_result > 0)
+	rec->front_face = vec3_dot(ray.dir_v, rec->normal_v);
+	if (rec->front_face > 0)
 		rec->normal_v = vec3_mult_t(rec->normal_v, -1.0);
-
 }
 
 int	hit_sphere(t_object *object, t_ray ray, t_hit_record *rec)
@@ -84,6 +82,7 @@ int	hit_sphere(t_object *object, t_ray ray, t_hit_record *rec)
 	rec->t = root;
 	rec->hit_point = ray_dest(ray, root);
 	rec->normal_v = vec3_devide_t(vec3_minus(rec->hit_point, sphere->center), sphere->radius);
+	rec->albedo = object->albedo;
 	set_face_normal(ray, rec);
 	return (TRUE);
 }
