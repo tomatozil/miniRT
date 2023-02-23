@@ -16,7 +16,13 @@
 # include "list.h"
 # include "object.h"
 
-t_scene			*scene_init(void);
+# define FALSE 0
+# define TRUE 1
+# define POINT_LIGHT 1
+# define EPSILON 1e-6
+# define LUMEN 3
+
+t_info			*scene_init(void);
 t_hit_record	record_init(void);
 
 #endif

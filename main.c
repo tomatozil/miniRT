@@ -43,7 +43,7 @@ void	my_mlx_pixel_put(t_mlx *data, int x, int y)
 int main()
 {
 	t_mlx	data = {0, 0, 0, 0, 0, 0, 0};
-	t_scene		*scene;
+	t_info		*scene;
 	t_color3	colors;
 	int max_depth = 30;
 
@@ -58,7 +58,7 @@ int main()
 	data.addr = mlx_get_data_addr(data.img, &data.bits_per_pixel, &data.size_line, &data.endian);
 
 
-	// render with ray
+	// render with ray_set
 	int j = 0;
 	while (j < scene->canvas.canvas_h)
 	{
@@ -68,7 +68,7 @@ int main()
 			double u = (double)i / (scene->canvas.canvas_w - 1);
 			double v = (scene->canvas.canvas_h - 1 - (double)j) / (scene->canvas.canvas_h - 1);
 			scene->ray = ray_primary(scene->cam, u, v);
-			colors = ray_color(scene, max_depth);
+			colors = ray_color(scene->ray, scene, max_depth);
 			int r = 255.999 * colors.x;
 			int g = 255.999 * colors.y;
 			int b = 255.999 * colors.z;

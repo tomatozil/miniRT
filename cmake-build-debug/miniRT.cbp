@@ -86,6 +86,9 @@
 		<Unit filename="/Users/jiyun/miniminirt/init.c">
 			<Option target="miniRT"/>
 		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/lighting.c">
+			<Option target="miniRT"/>
+		</Unit>
 		<Unit filename="/Users/jiyun/miniminirt/list.c">
 			<Option target="miniRT"/>
 		</Unit>

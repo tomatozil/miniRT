@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/jiyun/miniminirt/hit.c" "CMakeFiles/miniRT.dir/hit.c.o" "gcc" "CMakeFiles/miniRT.dir/hit.c.o.d"
   "/Users/jiyun/miniminirt/init.c" "CMakeFiles/miniRT.dir/init.c.o" "gcc" "CMakeFiles/miniRT.dir/init.c.o.d"
+  "/Users/jiyun/miniminirt/lighting.c" "CMakeFiles/miniRT.dir/lighting.c.o" "gcc" "CMakeFiles/miniRT.dir/lighting.c.o.d"
   "/Users/jiyun/miniminirt/list.c" "CMakeFiles/miniRT.dir/list.c.o" "gcc" "CMakeFiles/miniRT.dir/list.c.o.d"
   "/Users/jiyun/miniminirt/main.c" "CMakeFiles/miniRT.dir/main.c.o" "gcc" "CMakeFiles/miniRT.dir/main.c.o.d"
   "/Users/jiyun/miniminirt/object.c" "CMakeFiles/miniRT.dir/object.c.o" "gcc" "CMakeFiles/miniRT.dir/object.c.o.d"

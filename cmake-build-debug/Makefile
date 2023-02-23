@@ -177,6 +177,30 @@ init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/init.c.s
 .PHONY : init.c.s
 
+lighting.o: lighting.c.o
+.PHONY : lighting.o
+
+# target to build an object file
+lighting.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/lighting.c.o
+.PHONY : lighting.c.o
+
+lighting.i: lighting.c.i
+.PHONY : lighting.i
+
+# target to preprocess a source file
+lighting.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/lighting.c.i
+.PHONY : lighting.c.i
+
+lighting.s: lighting.c.s
+.PHONY : lighting.s
+
+# target to generate assembly for a file
+lighting.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/lighting.c.s
+.PHONY : lighting.c.s
+
 list.o: list.c.o
 .PHONY : list.o
 
@@ -336,6 +360,9 @@ help:
 	@echo "... init.o"
 	@echo "... init.i"
 	@echo "... init.s"
+	@echo "... lighting.o"
+	@echo "... lighting.i"
+	@echo "... lighting.s"
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"

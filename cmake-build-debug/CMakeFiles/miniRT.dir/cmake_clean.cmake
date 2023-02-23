@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/miniRT.dir/hit.c.o.d"
   "CMakeFiles/miniRT.dir/init.c.o"
   "CMakeFiles/miniRT.dir/init.c.o.d"
+  "CMakeFiles/miniRT.dir/lighting.c.o"
+  "CMakeFiles/miniRT.dir/lighting.c.o.d"
   "CMakeFiles/miniRT.dir/list.c.o"
   "CMakeFiles/miniRT.dir/list.c.o.d"
   "CMakeFiles/miniRT.dir/main.c.o"

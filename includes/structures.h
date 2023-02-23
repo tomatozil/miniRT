@@ -1,14 +1,11 @@
 #ifndef STRUCTURES_H
 #define STRUCTURES_H
 
-# define FALSE 0
-# define TRUE 1
-# define POINT_LIGHT 1
-# define EPSILON 1e-6
-
 typedef enum e_obj_type
 {
-	SPHERE
+	SPHERE,
+	PLANE,
+	CYLINDER
 }	t_obj_type;
 
 typedef struct s_mlx
@@ -47,6 +44,7 @@ typedef struct s_cam
 	t_vec3		dir_horizontal;
 	t_vec3		dir_vertical;
 	double		focal_len;
+	double		fov;
 	t_point3	left_bottom;
 }	t_cam;
 
@@ -68,9 +66,27 @@ typedef struct s_object
 typedef struct s_sphere
 {
 	t_point3	center;
-	double		radius;
-	double 		radius_d;
+	t_color3	rgb;
+	double		radius; //-> diameter / 2.0 (결과가 double 이어야함)
+	double 		radius_d; //-> radius * radius
 }	t_sphere;
+
+typedef struct s_plane
+{
+	t_point3	center;
+	t_vec3		dir;
+	t_color3	rgb;
+}	t_plane;
+
+typedef struct	s_cylinder
+{
+	t_point3	center;
+	t_vec3		dir;
+	t_color3	rgb;
+	double 		radius; //-> diameter / 2.0 (결과가 double 이어야함)
+	double 		radius_d; //-> radius * radius
+	double 		height;
+}	t_cylinder;
 
 typedef struct s_hit_record
 {
@@ -90,7 +106,13 @@ typedef struct s_light
 	double		bright_ratio;
 }	t_light;
 
-typedef struct s_scene
+typedef struct s_ambient
+{
+	t_color3	amount;
+	double		ambient_ratio;
+}	t_ambient;
+
+typedef struct s_info
 {
 	t_canvas		canvas;
 	t_cam			cam;
@@ -99,6 +121,6 @@ typedef struct s_scene
 	t_color3		ambient;
 	t_ray			ray;
 	t_hit_record	rec;
-}	t_scene;
+}	t_info;
 
 #endif

@@ -14,5 +14,6 @@ add_executable(miniRT
         hit.c
         list.c
         init.c
+        lighting.c
         )
 
