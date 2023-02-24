@@ -3,8 +3,9 @@
 
 # include "minirt.h"
 
-t_object	*object(t_obj_type type, void *element, t_color3 albedo);
-t_sphere	*sphere(t_point3 center, double radius);
+t_object	*object(t_obj_type type, void *element);
+t_sphere	*sphere(t_point3 center, t_color3 rgb, double radius);
+t_plane		*plane(t_point3 center, t_vec3 dir, t_color3 rgb);
 
 t_light	light_set(t_point3 light_origin, t_color3 light_amount, double bright_ratio);
 

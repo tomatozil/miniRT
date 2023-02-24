@@ -22,7 +22,7 @@ typedef struct s_dot3 t_color3;
 typedef struct s_ray
 {
 	t_point3	origin;
-	t_vec3		dir_v;
+	t_vec3		dir;
 }	t_ray;
 
 typedef struct s_cam
@@ -49,7 +49,6 @@ typedef struct s_object
 	t_obj_type	type;
 	void		*element;
 	void		*next;
-	t_color3	albedo;
 }	t_object;
 
 typedef struct s_sphere
@@ -84,8 +83,8 @@ typedef struct s_hit_record
 	double		t;
 	double		t_min; // t가 음수면 광선이 뒤를 향하는 것 = 카메라 뒤에 있는 것
 	double 		t_max; // 너무 멀 경우
-	int 		front_face;
-	t_color3	albedo;
+	double		front_face;
+	t_color3	rgb;
 }	t_hit_record;
 
 typedef struct s_light

@@ -39,7 +39,7 @@ t_color3	get_light_amount(t_info *info, t_light	light)
 
 	a = mult_t(info->rec.normal_v, dot(light_dir, info->rec.normal_v));
 	reflect_dir = plus(mult_t(light_dir, -1.0), mult_t(a, 2.0));
-	view_dir = unit(mult_t(info->ray.dir_v, -1.0));
+	view_dir = unit(mult_t(info->ray.dir, -1.0));
 	shininess = 64;
 	spec_strength = 0.5;
 	similar = pow(fmax(dot(reflect_dir, view_dir), 0.0), shininess);
@@ -60,8 +60,8 @@ t_color3	lighting_set(t_info *info)
 
 	light_amount = plus(light_amount, get_light_amount(info, light));
 	light_amount = plus(light_amount, info->ambient.amount);
-	light_amount = color3(light_amount.x * info->rec.albedo.x, \
-	light_amount.y * info->rec.albedo.y, \
-	light_amount.z * info->rec.albedo.z);
-	return(color3(fmin(light_amount.x , 1.0), fmin(light_amount.y , 1.0), fmin(light_amount.x , 1.0)));
+	light_amount = color3(light_amount.x * info->rec.rgb.x, \
+	light_amount.y * info->rec.rgb.y, \
+	light_amount.z * info->rec.rgb.z);
+	return(color3(fmin(light_amount.x , 1.0), fmin(light_amount.y , 1.0), fmin(light_amount.z , 1.0)));
 }

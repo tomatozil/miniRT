@@ -1,6 +1,6 @@
 #include "minirt.h"
 
-t_object *object(t_obj_type type, void *element, t_color3 albedo)
+t_object *object(t_obj_type type, void *element)
 {
 	t_object	*new;
 
@@ -9,19 +9,31 @@ t_object *object(t_obj_type type, void *element, t_color3 albedo)
 	new->type = type;
 	new->element = element;
 	new->next = NULL;
-	new->albedo = albedo;
 	return (new);
 }
 
-t_sphere	*sphere(t_point3 center, double radius)
+t_sphere *sphere(t_point3 center, t_color3 rgb, double radius)
 {
 	t_sphere	*new;
 
 	if (!(new = malloc(sizeof(t_sphere))))
 		return (NULL);
 	new->center = center;
+	new->rgb = rgb;
 	new->radius = radius;
 	new->radius_d = radius * radius;
+	return (new);
+}
+
+t_plane		*plane(t_point3 center, t_vec3 dir, t_color3 rgb)
+{
+	t_plane	*new;
+
+	if (!(new = malloc(sizeof(t_plane))))
+		return (NULL);
+	new->center = center;
+	new->dir = dir;
+	new->rgb = rgb;
 	return (new);
 }
 
