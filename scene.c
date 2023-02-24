@@ -6,7 +6,7 @@ t_canvas	canvas_set(int w, int h)
 
 	canvas.canvas_w = w;
 	canvas.canvas_h = h;
-	canvas.aspect_ratio = (double)w / (double)h;
+	canvas.ratio = (double)w / (double)h;
 	return (canvas);
 }
 
@@ -23,7 +23,7 @@ t_cam	cam_set(t_canvas canvas, t_point3 origin)
 	viewport_h = 2.0 * h;
 	cam.origin = origin;
 	cam.viewport_h = viewport_h;
-	cam.viewport_w = viewport_h * canvas.aspect_ratio;
+	cam.viewport_w = viewport_h * canvas.ratio;
 	cam.focal_len = focal_len;
 	cam.dir_horizontal = vec3(cam.viewport_w, 0, 0);
 	cam.dir_vertical = vec3(0, cam.viewport_h, 0);

@@ -7,10 +7,10 @@ int	hit_object(t_object *object, t_ray ray, t_hit_record *rec)
 	hit_result = FALSE;
 	if (object->type == SPHERE)
 		hit_result = hit_sphere(object, ray, rec);
-	if (object->type == PLANE)
-		hit_result = hit_plane(object, ray, rec);
-	if (object->type == CYLINDER)
-		hit_result = hit_cylinder(object, ray, rec);
+//	if (object->type == PLANE)
+//		hit_result = hit_plane(object, ray, rec);
+//	if (object->type == CYLINDER)
+//		hit_result = hit_cylinder(object, ray, rec);
 	return (hit_result);
 }
 
@@ -38,10 +38,10 @@ void	set_face_normal(t_ray ray, t_hit_record *rec)
 		rec->normal_v = mult_t(rec->normal_v, -1.0);
 }
 
-int hit_plane(t_object *object, t_ray ray, t_hit_record *rec)
-{
-
-}
+//int hit_plane(t_object *object, t_ray ray, t_hit_record *rec)
+//{
+//
+//}
 
 int	hit_sphere(t_object *object, t_ray ray, t_hit_record *rec)
 {

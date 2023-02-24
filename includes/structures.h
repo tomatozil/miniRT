@@ -8,17 +8,6 @@ typedef enum e_obj_type
 	CYLINDER
 }	t_obj_type;
 
-typedef struct s_mlx
-{
-	void	*mlx;
-	void	*win;
-	void	*img;
-	char	*addr;
-	int		bits_per_pixel;
-	int 	size_line;
-	int 	endian;
-}	t_mlx;
-
 struct s_dot3
 {
 	double	x;
@@ -52,7 +41,7 @@ typedef struct s_canvas
 {
 	int		canvas_w;
 	int		canvas_h;
-	double	aspect_ratio;
+	double	ratio;
 }	t_canvas;
 
 typedef struct s_object
@@ -103,22 +92,29 @@ typedef struct s_light
 {
 	t_point3	origin;
 	t_color3	amount;
-	double		bright_ratio;
+	double		ratio;
 }	t_light;
 
 typedef struct s_ambient
 {
 	t_color3	amount;
-	double		ambient_ratio;
+	double		ratio;
 }	t_ambient;
 
 typedef struct s_info
 {
+	void			*mlx;
+	void			*win;
+	void			*img;
+	char			*addr;
+	int				bits_per_pixel;
+	int 			size_line;
+	int 			endian;
 	t_canvas		canvas;
 	t_cam			cam;
 	t_object		*objects;
-	t_object		*lights;
-	t_color3		ambient;
+	t_light			light;
+	t_ambient		ambient; //추후 t_ambient
 	t_ray			ray;
 	t_hit_record	rec;
 }	t_info;

@@ -25,14 +25,12 @@ t_sphere	*sphere(t_point3 center, double radius)
 	return (new);
 }
 
-t_light	*light(t_point3 light_origin, t_color3 light_amount, double bright_ratio)
+t_light	light_set(t_point3 light_origin, t_color3 light_amount, double bright_ratio)
 {
-	t_light	*new;
+	t_light	new;
 
-	if (!(new = malloc(sizeof(t_light))))
-		return (NULL);
-	new->origin = light_origin;
-	new->amount = light_amount;
-	new->bright_ratio = bright_ratio;
+	new.origin = light_origin;
+	new.amount = light_amount;
+	new.ratio = bright_ratio;
 	return (new);
 }

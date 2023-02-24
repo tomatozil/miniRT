@@ -6,6 +6,6 @@
 int	hit(t_object *objects, t_ray ray, t_hit_record *rec);
 int	hit_sphere(t_object *object, t_ray ray, t_hit_record *rec);
 
-t_color3	lighting_set(t_info *scene);
+t_color3	lighting_set(t_info *info);
 
 #endif
