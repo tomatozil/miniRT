@@ -30,11 +30,16 @@ t_color3	color3(double x, double y, double z)
 	return (color);
 }
 
-void	vec3_set(t_vec3 *vec, double x, double y, double z)
+void	vset(t_vec3 *vec, double x, double y, double z)
 {
 	vec->x = x;
 	vec->y = y;
 	vec->z = z;
+}
+
+double	vlen_d(t_vec3 vec)
+{
+	return (vec.x * vec.x + vec.y * vec.y + vec.z * vec.z);
 }
 
 double	vlen(t_vec3 vec)
@@ -67,7 +72,7 @@ double	dot(t_vec3 vec1, t_vec3 vec2)
 	return (vec1.x * vec2.x + vec1.y * vec2.y + vec1.z * vec2.z);
 }
 
-t_vec3	vec3_cross(t_vec3 vec1, t_vec3 vec2)
+t_vec3	cross(t_vec3 vec1, t_vec3 vec2)
 {
 	t_vec3 normal;
 
@@ -94,7 +99,7 @@ t_vec3	unit(t_vec3 vec)
 	return (new);
 }
 
-t_vec3	vec3_mult(t_vec3 vec1, t_vec3 vec2)
+t_vec3	mult(t_vec3 vec1, t_vec3 vec2)
 {
 	t_vec3	new;
 

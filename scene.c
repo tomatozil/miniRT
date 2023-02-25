@@ -16,7 +16,7 @@ t_cam	cam_set(t_canvas canvas, t_point3 origin)
 	double	focal_len;
 	double	viewport_h;
 
-	double 	fov = 70.0;
+	double 	fov = 90.0;
 
 	focal_len = 1.0;
 	double h = tan(fov/2);
