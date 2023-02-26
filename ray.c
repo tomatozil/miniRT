@@ -33,21 +33,13 @@ t_ray	ray_primary(t_cam cam, double horiz, double verti)
 //{
 //}
 
-t_color3 ray_color(t_ray ray, t_info *info, int depth)
+t_color3 ray_color(t_ray ray, t_info *info)
 {
 	double	t;
 
 	info->rec = record_init();
-	if (depth <= 0)
-		return (color3(0, 0, 0));
 	if (hit(info->objects, ray, &info->rec))
-	{
-//		t_point3 target = plus(info->rec.hit_point, info->rec.normal_v);
-//		target = plus(target, random_in_unit_sphere());
-//		ray_color(ray_set(info->rec.hit_point, minus(target, info->rec.hit_point)),info, depth - 1);
-//		return (mult_t(lighting_set(objects), 0.5));
 		return (lighting_set(info));
-	}
 //		return (mult_t(plus(info->rec.normal_v, color3(1.0, 1.0, 1.0)), 0.5));
 //		return (devide_t(color3(info->rec.normal_v.x + 1, info->rec.normal_v.y + 1, info->rec.normal_v.z + 1), 2.0));
 	// -1 < n.y < 1

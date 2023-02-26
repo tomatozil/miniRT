@@ -67,7 +67,7 @@ int main()
 			double u = (double)i / (info->canvas.canvas_w - 1);
 			double v = (info->canvas.canvas_h - 1 - (double)j) / (info->canvas.canvas_h - 1);
 			info->ray = ray_primary(info->cam, u, v);
-			colors = ray_color(info->ray, info, max_depth);
+			colors = ray_color(info->ray, info);
 			int r = 255.999 * colors.x;
 			int g = 255.999 * colors.y;
 			int b = 255.999 * colors.z;

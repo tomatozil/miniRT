@@ -53,7 +53,7 @@ typedef struct s_object
 
 typedef struct s_sphere
 {
-	t_point3	center;
+	t_point3	point;
 	t_color3	rgb;
 	double		radius; //-> diameter / 2.0 (결과가 double 이어야함)
 	double 		radius_d; //-> radius * radius
@@ -61,14 +61,14 @@ typedef struct s_sphere
 
 typedef struct s_plane
 {
-	t_point3	center;
+	t_point3	point;
 	t_vec3		dir;
 	t_color3	rgb;
 }	t_plane;
 
 typedef struct	s_cylinder
 {
-	t_point3	center;
+	t_point3	point;
 	t_vec3		dir;
 	t_color3	rgb;
 	double 		radius; //-> diameter / 2.0 (결과가 double 이어야함)
