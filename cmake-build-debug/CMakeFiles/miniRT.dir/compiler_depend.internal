@@ -90,7 +90,6 @@ CMakeFiles/miniRT.dir/hit.c.o
  /Users/jiyun/miniminirt/includes/structures.h
  /Users/jiyun/miniminirt/includes/vector.h
  /Users/jiyun/miniminirt/includes/ray.h
- /Users/jiyun/miniminirt/includes/scene.h
  /Users/jiyun/miniminirt/includes/hit.h
  /Users/jiyun/miniminirt/includes/list.h
  /Users/jiyun/miniminirt/includes/object.h
@@ -184,7 +183,6 @@ CMakeFiles/miniRT.dir/init.c.o
  /Users/jiyun/miniminirt/includes/structures.h
  /Users/jiyun/miniminirt/includes/vector.h
  /Users/jiyun/miniminirt/includes/ray.h
- /Users/jiyun/miniminirt/includes/scene.h
  /Users/jiyun/miniminirt/includes/hit.h
  /Users/jiyun/miniminirt/includes/list.h
  /Users/jiyun/miniminirt/includes/object.h
@@ -278,7 +276,6 @@ CMakeFiles/miniRT.dir/lighting.c.o
  /Users/jiyun/miniminirt/includes/structures.h
  /Users/jiyun/miniminirt/includes/vector.h
  /Users/jiyun/miniminirt/includes/ray.h
- /Users/jiyun/miniminirt/includes/scene.h
  /Users/jiyun/miniminirt/includes/hit.h
  /Users/jiyun/miniminirt/includes/list.h
  /Users/jiyun/miniminirt/includes/object.h
@@ -372,7 +369,6 @@ CMakeFiles/miniRT.dir/list.c.o
  /Users/jiyun/miniminirt/includes/structures.h
  /Users/jiyun/miniminirt/includes/vector.h
  /Users/jiyun/miniminirt/includes/ray.h
- /Users/jiyun/miniminirt/includes/scene.h
  /Users/jiyun/miniminirt/includes/hit.h
  /Users/jiyun/miniminirt/includes/list.h
  /Users/jiyun/miniminirt/includes/object.h
@@ -466,7 +462,6 @@ CMakeFiles/miniRT.dir/main.c.o
  /Users/jiyun/miniminirt/includes/structures.h
  /Users/jiyun/miniminirt/includes/vector.h
  /Users/jiyun/miniminirt/includes/ray.h
- /Users/jiyun/miniminirt/includes/scene.h
  /Users/jiyun/miniminirt/includes/hit.h
  /Users/jiyun/miniminirt/includes/list.h
  /Users/jiyun/miniminirt/includes/object.h
@@ -560,7 +555,6 @@ CMakeFiles/miniRT.dir/object.c.o
  /Users/jiyun/miniminirt/includes/structures.h
  /Users/jiyun/miniminirt/includes/vector.h
  /Users/jiyun/miniminirt/includes/ray.h
- /Users/jiyun/miniminirt/includes/scene.h
  /Users/jiyun/miniminirt/includes/hit.h
  /Users/jiyun/miniminirt/includes/list.h
  /Users/jiyun/miniminirt/includes/object.h
@@ -654,7 +648,6 @@ CMakeFiles/miniRT.dir/ray.c.o
  /Users/jiyun/miniminirt/includes/structures.h
  /Users/jiyun/miniminirt/includes/vector.h
  /Users/jiyun/miniminirt/includes/ray.h
- /Users/jiyun/miniminirt/includes/scene.h
  /Users/jiyun/miniminirt/includes/hit.h
  /Users/jiyun/miniminirt/includes/list.h
  /Users/jiyun/miniminirt/includes/object.h
@@ -748,7 +741,6 @@ CMakeFiles/miniRT.dir/vector.c.o
  /Users/jiyun/miniminirt/includes/structures.h
  /Users/jiyun/miniminirt/includes/vector.h
  /Users/jiyun/miniminirt/includes/ray.h
- /Users/jiyun/miniminirt/includes/scene.h
  /Users/jiyun/miniminirt/includes/hit.h
  /Users/jiyun/miniminirt/includes/list.h
  /Users/jiyun/miniminirt/includes/object.h

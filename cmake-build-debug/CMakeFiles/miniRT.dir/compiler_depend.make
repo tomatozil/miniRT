@@ -89,7 +89,6 @@ CMakeFiles/miniRT.dir/hit.c.o: ../hit.c \
   ../includes/structures.h \
   ../includes/vector.h \
   ../includes/ray.h \
-  ../includes/scene.h \
   ../includes/hit.h \
   ../includes/list.h \
   ../includes/object.h
@@ -182,7 +181,6 @@ CMakeFiles/miniRT.dir/init.c.o: ../init.c \
   ../includes/structures.h \
   ../includes/vector.h \
   ../includes/ray.h \
-  ../includes/scene.h \
   ../includes/hit.h \
   ../includes/list.h \
   ../includes/object.h
@@ -275,7 +273,6 @@ CMakeFiles/miniRT.dir/lighting.c.o: ../lighting.c \
   ../includes/structures.h \
   ../includes/vector.h \
   ../includes/ray.h \
-  ../includes/scene.h \
   ../includes/hit.h \
   ../includes/list.h \
   ../includes/object.h
@@ -368,7 +365,6 @@ CMakeFiles/miniRT.dir/list.c.o: ../list.c \
   ../includes/structures.h \
   ../includes/vector.h \
   ../includes/ray.h \
-  ../includes/scene.h \
   ../includes/hit.h \
   ../includes/list.h \
   ../includes/object.h
@@ -461,7 +457,6 @@ CMakeFiles/miniRT.dir/main.c.o: ../main.c \
   ../includes/structures.h \
   ../includes/vector.h \
   ../includes/ray.h \
-  ../includes/scene.h \
   ../includes/hit.h \
   ../includes/list.h \
   ../includes/object.h
@@ -554,7 +549,6 @@ CMakeFiles/miniRT.dir/object.c.o: ../object.c \
   ../includes/structures.h \
   ../includes/vector.h \
   ../includes/ray.h \
-  ../includes/scene.h \
   ../includes/hit.h \
   ../includes/list.h \
   ../includes/object.h
@@ -647,7 +641,6 @@ CMakeFiles/miniRT.dir/ray.c.o: ../ray.c \
   ../includes/structures.h \
   ../includes/vector.h \
   ../includes/ray.h \
-  ../includes/scene.h \
   ../includes/hit.h \
   ../includes/list.h \
   ../includes/object.h
@@ -740,7 +733,6 @@ CMakeFiles/miniRT.dir/vector.c.o: ../vector.c \
   ../includes/structures.h \
   ../includes/vector.h \
   ../includes/ray.h \
-  ../includes/scene.h \
   ../includes/hit.h \
   ../includes/list.h \
   ../includes/object.h
@@ -814,10 +806,6 @@ CMakeFiles/miniRT.dir/vector.c.o: ../vector.c \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_seek_set.h:
-
-../includes/scene.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/mach/machine/_structs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/machine/_mcontext.h:
@@ -881,6 +869,8 @@ CMakeFiles/miniRT.dir/vector.c.o: ../vector.c \
 ../object.c:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_seek_set.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_off_t.h:
 

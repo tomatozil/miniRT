@@ -22,10 +22,7 @@ int	hit(t_object *objects, t_ray ray, t_hit_record *rec)
 	while (objects)
 	{
 		if (hit_object(objects, ray, rec) != FALSE)
-		{
 			hit_result = TRUE;
-			rec->t_max = rec->t;
-		}
 		objects = objects->next;
 	}
 	return (hit_result);
@@ -88,6 +85,7 @@ int	hit_sphere(t_object *object, t_ray ray, t_hit_record *rec)
 	rec->normal_v = devide_t(minus(rec->hit_point, sphere->point), sphere->radius);
 	rec->rgb = sphere->rgb;
 	set_face_normal(ray, rec);
+	rec->t_max = rec->t;
 	return (TRUE);
 }
 
@@ -117,6 +115,7 @@ int hit_plane(t_object *object, t_ray ray, t_hit_record *rec)
 	rec->rgb = plane->rgb;
 	// 광선과 평면이 평행인 상태에서 겹치면?(해가 무한대로 나오면?)
 	set_face_normal(ray, rec);
+	rec->t_max = rec->t;
 	return (TRUE);
 }
 
@@ -163,10 +162,10 @@ int	hit_cylinder_cap(t_object *object, t_ray ray, t_hit_record *rec, double cap_
 	root = numerator / denominator;
 	if (root < rec->t_min || rec->t_max < root)
 		return (FALSE);
+	if (vlen(minus(center, ray_dest(ray, root))) > cylin->radius)
+		return (FALSE);
 	rec->t = root;
 	rec->hit_point = ray_dest(ray, root);
-	if (vlen(minus(center, rec->hit_point)) > cylin->radius)
-		return (FALSE);
 	rec->normal_v = cylin->dir; // 평면의 방향이 곧 법선벡터
 	rec->rgb = cylin->rgb;
 	// 광선과 평면이 평행인 상태에서 겹치면?(해가 무한대로 나오면?)
@@ -218,7 +217,7 @@ int	hit_cylinder_body(t_object *object, t_ray ray, t_hit_record *rec)
 	rec->hit_point = ray_dest(ray, root);
 	rec->normal_v = get_cylin_normal_v(cylin, rec->hit_point);
 	rec->rgb = cylin->rgb;
-	set_face_normal(ray, rec);
+//	set_face_normal(ray, rec);
 	rec->t_max = rec->t;
 	return (TRUE);
 }
