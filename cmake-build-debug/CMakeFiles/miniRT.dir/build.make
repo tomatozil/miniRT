@@ -111,24 +111,10 @@ CMakeFiles/miniRT.dir/ray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/ray.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/ray.c -o CMakeFiles/miniRT.dir/ray.c.s
 
-CMakeFiles/miniRT.dir/scene.c.o: CMakeFiles/miniRT.dir/flags.make
-CMakeFiles/miniRT.dir/scene.c.o: ../scene.c
-CMakeFiles/miniRT.dir/scene.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/miniRT.dir/scene.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/scene.c.o -MF CMakeFiles/miniRT.dir/scene.c.o.d -o CMakeFiles/miniRT.dir/scene.c.o -c /Users/jiyun/miniminirt/scene.c
-
-CMakeFiles/miniRT.dir/scene.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/scene.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/scene.c > CMakeFiles/miniRT.dir/scene.c.i
-
-CMakeFiles/miniRT.dir/scene.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/scene.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/scene.c -o CMakeFiles/miniRT.dir/scene.c.s
-
 CMakeFiles/miniRT.dir/object.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/object.c.o: ../object.c
 CMakeFiles/miniRT.dir/object.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/miniRT.dir/object.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/miniRT.dir/object.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/object.c.o -MF CMakeFiles/miniRT.dir/object.c.o.d -o CMakeFiles/miniRT.dir/object.c.o -c /Users/jiyun/miniminirt/object.c
 
 CMakeFiles/miniRT.dir/object.c.i: cmake_force
@@ -142,7 +128,7 @@ CMakeFiles/miniRT.dir/object.c.s: cmake_force
 CMakeFiles/miniRT.dir/hit.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/hit.c.o: ../hit.c
 CMakeFiles/miniRT.dir/hit.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/miniRT.dir/hit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/miniRT.dir/hit.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/hit.c.o -MF CMakeFiles/miniRT.dir/hit.c.o.d -o CMakeFiles/miniRT.dir/hit.c.o -c /Users/jiyun/miniminirt/hit.c
 
 CMakeFiles/miniRT.dir/hit.c.i: cmake_force
@@ -156,7 +142,7 @@ CMakeFiles/miniRT.dir/hit.c.s: cmake_force
 CMakeFiles/miniRT.dir/list.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/list.c.o: ../list.c
 CMakeFiles/miniRT.dir/list.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/miniRT.dir/list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/miniRT.dir/list.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/list.c.o -MF CMakeFiles/miniRT.dir/list.c.o.d -o CMakeFiles/miniRT.dir/list.c.o -c /Users/jiyun/miniminirt/list.c
 
 CMakeFiles/miniRT.dir/list.c.i: cmake_force
@@ -170,7 +156,7 @@ CMakeFiles/miniRT.dir/list.c.s: cmake_force
 CMakeFiles/miniRT.dir/init.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/init.c.o: ../init.c
 CMakeFiles/miniRT.dir/init.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/miniRT.dir/init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/miniRT.dir/init.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/init.c.o -MF CMakeFiles/miniRT.dir/init.c.o.d -o CMakeFiles/miniRT.dir/init.c.o -c /Users/jiyun/miniminirt/init.c
 
 CMakeFiles/miniRT.dir/init.c.i: cmake_force
@@ -184,7 +170,7 @@ CMakeFiles/miniRT.dir/init.c.s: cmake_force
 CMakeFiles/miniRT.dir/lighting.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/lighting.c.o: ../lighting.c
 CMakeFiles/miniRT.dir/lighting.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/miniRT.dir/lighting.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/miniRT.dir/lighting.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/lighting.c.o -MF CMakeFiles/miniRT.dir/lighting.c.o.d -o CMakeFiles/miniRT.dir/lighting.c.o -c /Users/jiyun/miniminirt/lighting.c
 
 CMakeFiles/miniRT.dir/lighting.c.i: cmake_force
@@ -200,7 +186,6 @@ miniRT_OBJECTS = \
 "CMakeFiles/miniRT.dir/main.c.o" \
 "CMakeFiles/miniRT.dir/vector.c.o" \
 "CMakeFiles/miniRT.dir/ray.c.o" \
-"CMakeFiles/miniRT.dir/scene.c.o" \
 "CMakeFiles/miniRT.dir/object.c.o" \
 "CMakeFiles/miniRT.dir/hit.c.o" \
 "CMakeFiles/miniRT.dir/list.c.o" \
@@ -213,7 +198,6 @@ miniRT_EXTERNAL_OBJECTS =
 miniRT: CMakeFiles/miniRT.dir/main.c.o
 miniRT: CMakeFiles/miniRT.dir/vector.c.o
 miniRT: CMakeFiles/miniRT.dir/ray.c.o
-miniRT: CMakeFiles/miniRT.dir/scene.c.o
 miniRT: CMakeFiles/miniRT.dir/object.c.o
 miniRT: CMakeFiles/miniRT.dir/hit.c.o
 miniRT: CMakeFiles/miniRT.dir/list.c.o
@@ -221,7 +205,7 @@ miniRT: CMakeFiles/miniRT.dir/init.c.o
 miniRT: CMakeFiles/miniRT.dir/lighting.c.o
 miniRT: CMakeFiles/miniRT.dir/build.make
 miniRT: CMakeFiles/miniRT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable miniRT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable miniRT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/miniRT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

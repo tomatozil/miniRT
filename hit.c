@@ -72,7 +72,6 @@ int	hit_sphere(t_object *object, t_ray ray, t_hit_record *rec)
 	a = vlen_d(ray.dir);
 	b = dot(ray.dir, ray_to_point);
 	c = vlen_d(ray_to_point) - sphere->radius_d;
-	printf("lf\n", sphere->radius_d);
 	discriminant = b * b - a * c;
 	if (discriminant < 0)
 		return (FALSE);

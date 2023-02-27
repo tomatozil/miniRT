@@ -86,7 +86,6 @@ CMakeFiles/miniRT.dir/vector.c.o: /Users/jiyun/miniminirt/vector.c \
   /Users/jiyun/miniminirt/includes/structures.h \
   /Users/jiyun/miniminirt/includes/vector.h \
   /Users/jiyun/miniminirt/includes/ray.h \
-  /Users/jiyun/miniminirt/includes/scene.h \
   /Users/jiyun/miniminirt/includes/hit.h \
   /Users/jiyun/miniminirt/includes/list.h \
   /Users/jiyun/miniminirt/includes/object.h

@@ -28,21 +28,16 @@ typedef struct s_ray
 typedef struct s_cam
 {
 	t_point3	origin;
+	t_vec3		dir;
+	double		fov;
+
 	double		viewport_w;
 	double		viewport_h;
-	t_vec3		dir_horizontal;
-	t_vec3		dir_vertical;
+	t_vec3		dir_horiz;
+	t_vec3		dir_verti;
 	double		focal_len;
-	double		fov;
 	t_point3	left_bottom;
 }	t_cam;
-
-typedef struct s_canvas
-{
-	int		canvas_w;
-	int		canvas_h;
-	double	ratio;
-}	t_canvas;
 
 typedef struct s_object
 {
@@ -109,7 +104,6 @@ typedef struct s_info
 	int				bits_per_pixel;
 	int 			size_line;
 	int 			endian;
-	t_canvas		canvas;
 	t_cam			cam;
 	t_object		*objects;
 	t_light			light;

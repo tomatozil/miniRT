@@ -1,84 +1,78 @@
 #include "minirt.h"
 
-#define WIDTH 600
-#define HEIGHT 400
-
-/*
-void	my_mlx_pixel_put(t_mlx *data, int x, int y)
+void draw(t_info *info)
 {
-	char	*dst;
+	int			i;
+	int 		j;
+	char		*dst;
+	t_color3	colors;
 
-	int	i, j;
 	j = 0;
 	while (j < HEIGHT)
 	{
 		i = 0;
 		while (i < WIDTH)
 		{
-			double r_d = (double)i / (WIDTH - 1);
-			double g_d = (HEIGHT - 1 - (double)j) / (HEIGHT - 1);
-			double b_d = 0.25f;
-
-			int r_i = 255.999 * r_d;
-			int g_i = 255.999 * g_d;
-			int b_i = 255.999 * b_d;
-
-			dst = data->addr + (j * data->size_line + i * 4);
-			*(unsigned int *)dst = (r_i * 256 * 256) + (g_i * 256) + b_i;
-//			dst = data->addr + (j * data->size_line + i * (data->bits_per_pixel / 8));
-//			*dst = '\0';
-//			dst += 1;
-//			*dst =(char)r_i;
-//			dst += 1;
-//			*dst =(char)g_i;
-//			dst += 1;
-//			*dst =(char)b_i;
+			info->ray = ray_primary(info->cam, \
+			(double)i / (WIDTH - 1), \
+			(HEIGHT - 1 - (double)j) / (HEIGHT - 1));
+			colors = ray_color(info->ray, info);
+			dst = info->addr + (j * info->size_line + i * 4);
+			*(unsigned int *)dst = ((int)(255.999 * colors.x) * 256 * 256) + ((int)(255.999 * colors.y) * 256) + (int)(255.999 * colors.z);
 			i++;
 		}
 		j++;
 	}
+	mlx_put_image_to_window(info->mlx, info->win, info->img, 0, 0);
 }
-*/
+
+void	mlx_setting(t_info *info)
+{
+	info->mlx = mlx_init();
+	info->win = mlx_new_window(info->mlx, WIDTH, HEIGHT, "test");
+	info->img = mlx_new_image(info->mlx, WIDTH, HEIGHT);
+	info->addr = mlx_get_data_addr(info->img, &info->bits_per_pixel, &info->size_line, &info->endian);
+}
+
+void	cam_setting(t_cam *cam)
+{
+	double	focal_len;
+	double	viewport_h;
+	double 	fov = 90.0;
+
+	focal_len = 1.0;
+	double h = tan(fov/2);
+	viewport_h = 2.0 * h;
+	cam->viewport_h = viewport_h;
+	cam->viewport_w = viewport_h * ((double)WIDTH / (double)HEIGHT);
+	cam->focal_len = focal_len;
+	cam->dir_horiz = vec3(cam->viewport_w, 0, 0);
+	cam->dir_verti = vec3(0, cam->viewport_h, 0);
+	cam->left_bottom = minus(cam->origin, vec3(0, 0, cam->focal_len));
+	cam->left_bottom = minus(cam->left_bottom, devide_t(cam->dir_verti, 2));
+	cam->left_bottom = minus(cam->left_bottom, devide_t(cam->dir_horiz, 2));
+}
 
 int main()
 {
 	t_info		*info;
-	t_color3	colors;
-	int max_depth = 30;
 
-	char	*dst;
+	if (!(info = malloc(sizeof(t_info))))
+		return (0);
+	scene_init(info);
 
-	info = scene_init();
+	//parse(argv[1], &info);
 
-	// mlx setting
-	info->mlx = mlx_init();
-	info->win = mlx_new_window(info->mlx, info->canvas.canvas_w, info->canvas.canvas_h, "test");
-	info->img = mlx_new_image(info->mlx, info->canvas.canvas_w, info->canvas.canvas_h);
-	info->addr = mlx_get_data_addr(info->img, &info->bits_per_pixel, &info->size_line, &info->endian);
-
+	cam_setting(&info->cam); // -> 이거 parse() 안 어딘가에 넣으면 좋을듯
+	mlx_setting(info); // -> 이거 parse() 안 어딘가에 넣으면 좋을듯
 
 	// render with ray_set
-	int j = 0;
-	while (j < info->canvas.canvas_h)
-	{
-		int i = 0;
-		while (i < info->canvas.canvas_w)
-		{
-			double u = (double)i / (info->canvas.canvas_w - 1);
-			double v = (info->canvas.canvas_h - 1 - (double)j) / (info->canvas.canvas_h - 1);
-			info->ray = ray_primary(info->cam, u, v);
-			colors = ray_color(info->ray, info);
-			int r = 255.999 * colors.x;
-			int g = 255.999 * colors.y;
-			int b = 255.999 * colors.z;
-			dst = info->addr + (j * info->size_line + i * 4);
-			*(unsigned int *)dst = (r * 256 * 256) + (g * 256) + b;
-			i++;
-		}
-		j++;
-	}
-//	my_mlx_pixel_put(&data, 0, 0);
-	mlx_put_image_to_window(info->mlx, info->win, info->img, 0, 0);
+	draw(info);
+
+	// mlx_hook
+
+
 	mlx_loop(info->mlx);
+	return (0);
 }
 

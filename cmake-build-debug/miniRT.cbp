@@ -101,9 +101,6 @@
 		<Unit filename="/Users/jiyun/miniminirt/ray.c">
 			<Option target="miniRT"/>
 		</Unit>
-		<Unit filename="/Users/jiyun/miniminirt/scene.c">
-			<Option target="miniRT"/>
-		</Unit>
 		<Unit filename="/Users/jiyun/miniminirt/vector.c">
 			<Option target="miniRT"/>
 		</Unit>

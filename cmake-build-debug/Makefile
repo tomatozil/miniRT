@@ -297,30 +297,6 @@ ray.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/ray.c.s
 .PHONY : ray.c.s
 
-scene.o: scene.c.o
-.PHONY : scene.o
-
-# target to build an object file
-scene.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/scene.c.o
-.PHONY : scene.c.o
-
-scene.i: scene.c.i
-.PHONY : scene.i
-
-# target to preprocess a source file
-scene.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/scene.c.i
-.PHONY : scene.c.i
-
-scene.s: scene.c.s
-.PHONY : scene.s
-
-# target to generate assembly for a file
-scene.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/scene.c.s
-.PHONY : scene.c.s
-
 vector.o: vector.c.o
 .PHONY : vector.o
 
@@ -375,9 +351,6 @@ help:
 	@echo "... ray.o"
 	@echo "... ray.i"
 	@echo "... ray.s"
-	@echo "... scene.o"
-	@echo "... scene.i"
-	@echo "... scene.s"
 	@echo "... vector.o"
 	@echo "... vector.i"
 	@echo "... vector.s"

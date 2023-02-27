@@ -17,16 +17,16 @@ t_point3	ray_dest(t_ray ray, double t)
 	return (dest);
 }
 
-t_ray	ray_primary(t_cam cam, double horiz, double verti)
+t_ray	ray_primary(t_cam cam, double half_w, double half_h)
 {
-	t_ray ray_p;
+	t_ray ray;
 
-	ray_p.origin = cam.origin;
-	ray_p.dir = plus(cam.left_bottom, mult_t(cam.dir_horizontal, horiz));
-	ray_p.dir = plus(ray_p.dir, mult_t(cam.dir_vertical, verti));
-	ray_p.dir = minus(ray_p.dir, ray_p.origin);
-	ray_p.dir = unit(ray_p.dir);
-	return (ray_p);
+	ray.origin = cam.origin;
+	ray.dir = plus(cam.left_bottom, mult_t(cam.dir_horiz, half_w));
+	ray.dir = plus(ray.dir, mult_t(cam.dir_verti, half_h));
+	ray.dir = minus(ray.dir, ray.origin);
+	ray.dir = unit(ray.dir);
+	return (ray);
 }
 
 //t_vec3	random_in_unit_sphere(void)
@@ -37,7 +37,8 @@ t_color3 ray_color(t_ray ray, t_info *info)
 {
 	double	t;
 
-	info->rec = record_init();
+	info->rec.t_min = EPSILON;
+	info->rec.t_max = INFINITY;
 	if (hit(info->objects, ray, &info->rec))
 		return (lighting_set(info));
 //		return (mult_t(plus(info->rec.normal_v, color3(1.0, 1.0, 1.0)), 0.5));

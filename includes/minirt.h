@@ -10,7 +10,6 @@
 # include "structures.h"
 # include "vector.h"
 # include "ray.h"
-# include "scene.h"
 # include "hit.h"
 
 # include "list.h"
@@ -18,11 +17,12 @@
 
 # define FALSE 0
 # define TRUE 1
-# define POINT_LIGHT 1
+# define WIDTH	1200
+# define HEIGHT	800
 # define EPSILON 1e-6
 # define LUMEN 3
 
-t_info			*scene_init(void);
+void	scene_init(t_info *info);
 t_hit_record	record_init(void);
 
 #endif

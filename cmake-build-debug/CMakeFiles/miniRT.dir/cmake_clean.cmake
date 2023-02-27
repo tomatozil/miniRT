@@ -13,8 +13,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/miniRT.dir/object.c.o.d"
   "CMakeFiles/miniRT.dir/ray.c.o"
   "CMakeFiles/miniRT.dir/ray.c.o.d"
-  "CMakeFiles/miniRT.dir/scene.c.o"
-  "CMakeFiles/miniRT.dir/scene.c.o.d"
   "CMakeFiles/miniRT.dir/vector.c.o"
   "CMakeFiles/miniRT.dir/vector.c.o.d"
   "miniRT"

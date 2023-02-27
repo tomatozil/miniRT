@@ -1,15 +1,9 @@
 #include "minirt.h"
 
-t_info	*scene_init(void)
+void	scene_init(t_info *info)
 {
-	t_info		*info;
 	t_object	*objects;
 	t_light		light;
-
-	if (!(info = malloc(sizeof(t_info))))
-		return (NULL);
-	info->canvas = canvas_set(960, 540);
-	info->cam = cam_set(info->canvas, point3(0, 0, 5));
 
 	objects = object(SPHERE, sphere(point3(2, 0, -5), color3(0, 0, 0.5), 2));
 	obj_add(&objects, object(SPHERE, sphere(point3(-3, 0, -20), color3(0, 0.5, 0), 10)));
@@ -26,14 +20,4 @@ t_info	*scene_init(void)
 	info->ambient.ratio = 0.3;
 
 	info->ambient.amount = mult_t(color3(1, 1, 1), info->ambient.ratio);
-	return (info);
-}
-
-t_hit_record	record_init(void)
-{
-	t_hit_record	record;
-
-	record.t_min = EPSILON;
-	record.t_max = INFINITY;
-	return (record);
 }
