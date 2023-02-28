@@ -80,28 +80,181 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jiyun/miniminirt/hit.c">
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_atod.c">
 			<Option target="miniRT"/>
 		</Unit>
-		<Unit filename="/Users/jiyun/miniminirt/init.c">
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_atoi.c">
 			<Option target="miniRT"/>
 		</Unit>
-		<Unit filename="/Users/jiyun/miniminirt/lighting.c">
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_bzero.c">
 			<Option target="miniRT"/>
 		</Unit>
-		<Unit filename="/Users/jiyun/miniminirt/main.c">
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_calloc.c">
 			<Option target="miniRT"/>
 		</Unit>
-		<Unit filename="/Users/jiyun/miniminirt/object.c">
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_error.c">
 			<Option target="miniRT"/>
 		</Unit>
-		<Unit filename="/Users/jiyun/miniminirt/ray.c">
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_free_strs.c">
 			<Option target="miniRT"/>
 		</Unit>
-		<Unit filename="/Users/jiyun/miniminirt/util.c">
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_isalnum.c">
 			<Option target="miniRT"/>
 		</Unit>
-		<Unit filename="/Users/jiyun/miniminirt/vector.c">
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_isascii.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_isdigit.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_isprint.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_itoa.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_lstadd_back.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_lstadd_front.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_lstclear.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_lstdelone.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_lstiter.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_lstlast.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_lstmap.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_lstnew.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_lstsize.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_memchr.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_memcmp.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_memcpy.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_memmove.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_memset.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_putchar_fd.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_putendl_fd.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_putnbr_fd.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_putstr_fd.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_split.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strchr.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strcmp.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strdup.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_striteri.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strjoin.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strlcat.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strlcpy.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strlen.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strmapi.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strncmp.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strnstr.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strrchr.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strslen.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_strtrim.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_substr.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_tolower.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/libft/ft_toupper.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/hit.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/key.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/lighting.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/main.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/object.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/parse_file.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/parse_major_object.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/parse_minor_object.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/parse_util.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/ray.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/util.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/src/vector.c">
 			<Option target="miniRT"/>
 		</Unit>
 		<Unit filename="/Users/jiyun/miniminirt/CMakeLists.txt">

@@ -287,6 +287,6 @@ public func mlx_mouse_get_pos_swift(_ winptr:UnsafeRawPointer, _ x:UnsafeMutable
 	let frame = win.getWinEFrame()
 	let point = win.getMouseLoc()
 	x.pointee = Int32(point.x)
-	y.pointee = Int32(frame.size.height - 1.0 - point3.y)
+	y.pointee = Int32(frame.size.height - 1.0 - point.y)
 	return Int32(0)
 }
