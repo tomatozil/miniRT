@@ -18,7 +18,8 @@ void draw(t_info *info)
 			(HEIGHT - 1 - (double)j) / (HEIGHT - 1));
 			colors = ray_color(info->ray, info);
 			dst = info->addr + (j * info->size_line + i * 4);
-			*(unsigned int *)dst = ((int)(255.999 * colors.x) * 256 * 256) + ((int)(255.999 * colors.y) * 256) + (int)(255.999 * colors.z);
+			*(unsigned int *)dst = ((int)(255.999 * colors.x) * 256 * 256) + \
+			((int)(255.999 * colors.y) * 256) + (int)(255.999 * colors.z);
 			i++;
 		}
 		j++;
@@ -34,23 +35,37 @@ void	mlx_setting(t_info *info)
 	info->addr = mlx_get_data_addr(info->img, &info->bits_per_pixel, &info->size_line, &info->endian);
 }
 
-void	cam_setting(t_cam *cam)
+t_vec3	cam_set_vup(t_vec3 dir)
 {
-	double	focal_len;
-	double	viewport_h;
-	double 	fov = 90.0;
+	if (dir.x == 0 && dir.y != 0 && dir.z == 0)
+		return (vec3(0, dir.y, 1e-6));
+	else
+		return (vec3(0, 1, 0));
+}
 
-	focal_len = 1.0;
-	double h = tan(fov/2);
-	viewport_h = 2.0 * h;
-	cam->viewport_h = viewport_h;
-	cam->viewport_w = viewport_h * ((double)WIDTH / (double)HEIGHT);
-	cam->focal_len = focal_len;
-	cam->dir_horiz = vec3(cam->viewport_w, 0, 0);
-	cam->dir_verti = vec3(0, cam->viewport_h, 0);
-	cam->left_bottom = minus(cam->origin, vec3(0, 0, cam->focal_len));
-	cam->left_bottom = minus(cam->left_bottom, devide_t(cam->dir_verti, 2));
-	cam->left_bottom = minus(cam->left_bottom, devide_t(cam->dir_horiz, 2));
+void	cam_setting(t_cam *cam) // 원래 이름 cam_init
+{
+	t_vec3	opposite;
+	t_vec3	u;
+	t_vec3	v;
+
+	// ------파싱에서 넣어주는 부분------
+	cam->fov = 90.0;
+	cam->origin = point3(0, 0, 5);
+	cam->dir = vec3(0, 0, -1);
+	// ---------------------------
+
+	cam->focal_len = tan((cam->fov * M_PI / 180.0) / 2.0);
+	cam->viewport_h = 2.0 * cam->focal_len;
+	cam->viewport_w = cam->viewport_h * (double)WIDTH / (double)HEIGHT;
+	opposite = mult_t(cam->dir, -1);
+	u = unit(cross(cam_set_vup(cam->dir), opposite));
+	printf("%lf %lf %lf\n", u.x, u.y, u.z);
+	v = cross(opposite, u);
+	cam->dir_hor = mult_t(u, cam->viewport_w);
+	cam->dir_ver = mult_t(v, cam->viewport_h);
+	cam->left_bottom = minus(minus(minus(cam->origin, \
+		devide_t(cam->dir_hor, 2)), devide_t(cam->dir_ver, 2)), opposite);
 }
 
 int main()
@@ -70,7 +85,9 @@ int main()
 	draw(info);
 
 	// mlx_hook
-
+	mlx_hook(info->win, 2, 0, key_press, info);
+	mlx_hook(info->win, 17, 0, red_button, info);
+	mlx_hook(info->win, 4, 0, mouse_click, info);
 
 	mlx_loop(info->mlx);
 	return (0);

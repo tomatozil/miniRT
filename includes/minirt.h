@@ -12,7 +12,7 @@
 # include "ray.h"
 # include "hit.h"
 
-# include "list.h"
+# include "util.h"
 # include "object.h"
 
 # define FALSE 0
@@ -23,6 +23,7 @@
 # define LUMEN 3
 
 void	scene_init(t_info *info);
-t_hit_record	record_init(void);
+
+void draw(t_info *info);
 
 #endif

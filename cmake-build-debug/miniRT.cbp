@@ -89,9 +89,6 @@
 		<Unit filename="/Users/jiyun/miniminirt/lighting.c">
 			<Option target="miniRT"/>
 		</Unit>
-		<Unit filename="/Users/jiyun/miniminirt/list.c">
-			<Option target="miniRT"/>
-		</Unit>
 		<Unit filename="/Users/jiyun/miniminirt/main.c">
 			<Option target="miniRT"/>
 		</Unit>
@@ -99,6 +96,9 @@
 			<Option target="miniRT"/>
 		</Unit>
 		<Unit filename="/Users/jiyun/miniminirt/ray.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniminirt/util.c">
 			<Option target="miniRT"/>
 		</Unit>
 		<Unit filename="/Users/jiyun/miniminirt/vector.c">

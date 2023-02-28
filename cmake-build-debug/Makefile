@@ -201,30 +201,6 @@ lighting.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/lighting.c.s
 .PHONY : lighting.c.s
 
-list.o: list.c.o
-.PHONY : list.o
-
-# target to build an object file
-list.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/list.c.o
-.PHONY : list.c.o
-
-list.i: list.c.i
-.PHONY : list.i
-
-# target to preprocess a source file
-list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/list.c.i
-.PHONY : list.c.i
-
-list.s: list.c.s
-.PHONY : list.s
-
-# target to generate assembly for a file
-list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/list.c.s
-.PHONY : list.c.s
-
 main.o: main.c.o
 .PHONY : main.o
 
@@ -297,6 +273,30 @@ ray.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/ray.c.s
 .PHONY : ray.c.s
 
+util.o: util.c.o
+.PHONY : util.o
+
+# target to build an object file
+util.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/util.c.o
+.PHONY : util.c.o
+
+util.i: util.c.i
+.PHONY : util.i
+
+# target to preprocess a source file
+util.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/util.c.i
+.PHONY : util.c.i
+
+util.s: util.c.s
+.PHONY : util.s
+
+# target to generate assembly for a file
+util.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/util.c.s
+.PHONY : util.c.s
+
 vector.o: vector.c.o
 .PHONY : vector.o
 
@@ -339,9 +339,6 @@ help:
 	@echo "... lighting.o"
 	@echo "... lighting.i"
 	@echo "... lighting.s"
-	@echo "... list.o"
-	@echo "... list.i"
-	@echo "... list.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -351,6 +348,9 @@ help:
 	@echo "... ray.o"
 	@echo "... ray.i"
 	@echo "... ray.s"
+	@echo "... util.o"
+	@echo "... util.i"
+	@echo "... util.s"
 	@echo "... vector.o"
 	@echo "... vector.i"
 	@echo "... vector.s"

@@ -33,8 +33,8 @@ typedef struct s_cam
 
 	double		viewport_w;
 	double		viewport_h;
-	t_vec3		dir_horiz;
-	t_vec3		dir_verti;
+	t_vec3		dir_hor;
+	t_vec3		dir_ver;
 	double		focal_len;
 	t_point3	left_bottom;
 }	t_cam;

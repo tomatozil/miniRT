@@ -121,14 +121,12 @@ int hit_plane(t_object *object, t_ray ray, t_hit_record *rec)
 
 t_vec3	get_cylin_normal_v(t_cylinder *cylin, t_point3 hit_point)
 {
-	t_vec3 center;
-	double projection = dot(minus(hit_point, cylin->point), cylin->dir);
-	center = plus(cylin->point, mult_t(cylin->dir, projection));
-//	center = plus(cylin->point, mult_t(cylin->dir, cylin->height)); -> 맞는 곳의
-//	center = mult_t(cylin->dir, dot(minus(hit_point, cylin->point), cylin->dir));
-//	center = plus(cylin->point, mult_t(cylin->dir, cylin->height));
-	return (unit(minus(hit_point, center)));
-//	return (devide_t(minus(hit_point, plus(cylin->point, center)), cylin->radius));
+	double hit_height;
+	t_vec3 hit_height_center;
+
+	hit_height = dot(minus(hit_point, cylin->point), cylin->dir);
+	hit_height_center = plus(cylin->point, mult_t(cylin->dir, hit_height));
+	return (unit(minus(hit_point, hit_height_center)));
 }
 
 int hit_body(t_cylinder *cylin, t_point3 hit_point)
@@ -217,7 +215,7 @@ int	hit_cylinder_body(t_object *object, t_ray ray, t_hit_record *rec)
 	rec->hit_point = ray_dest(ray, root);
 	rec->normal_v = get_cylin_normal_v(cylin, rec->hit_point);
 	rec->rgb = cylin->rgb;
-//	set_face_normal(ray, rec);
+	set_face_normal(ray, rec);
 	rec->t_max = rec->t;
 	return (TRUE);
 }

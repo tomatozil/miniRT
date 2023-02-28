@@ -14,5 +14,3 @@ void	obj_add(t_object **list, t_object *new)
 		cur = cur->next;
 	cur->next = new;
 }
-
-
