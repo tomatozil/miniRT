@@ -1,6 +1,6 @@
 CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o: \
-  /Users/jiyun/miniminirt/libft/ft_strlcpy.c \
-  /Users/jiyun/miniminirt/includes/libft.h \
+  /Users/jiyun/miniRT/libft/ft_strlcpy.c \
+  /Users/jiyun/miniRT/includes/libft.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types.h \

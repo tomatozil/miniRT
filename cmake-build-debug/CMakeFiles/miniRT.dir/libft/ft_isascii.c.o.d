@@ -1,2 +1,2 @@
 CMakeFiles/miniRT.dir/libft/ft_isascii.c.o: \
-  /Users/jiyun/miniminirt/libft/ft_isascii.c
+  /Users/jiyun/miniRT/libft/ft_isascii.c

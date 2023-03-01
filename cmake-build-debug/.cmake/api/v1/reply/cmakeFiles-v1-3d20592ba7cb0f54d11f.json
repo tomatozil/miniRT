@@ -121,8 +121,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/jiyun/miniminirt/cmake-build-debug",
-		"source" : "/Users/jiyun/miniminirt"
+		"build" : "/Users/jiyun/miniRT/cmake-build-debug",
+		"source" : "/Users/jiyun/miniRT"
 	},
 	"version" : 
 	{

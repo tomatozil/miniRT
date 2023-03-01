@@ -1,6 +1,6 @@
 CMakeFiles/miniRT.dir/src/parse_major_object.c.o: \
-  /Users/jiyun/miniminirt/src/parse_major_object.c \
-  /Users/jiyun/miniminirt/includes/minirt.h \
+  /Users/jiyun/miniRT/src/parse_major_object.c \
+  /Users/jiyun/miniRT/includes/minirt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types.h \
@@ -83,8 +83,8 @@ CMakeFiles/miniRT.dir/src/parse_major_object.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/secure/_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/math.h \
-  /Users/jiyun/miniminirt/includes/../mlx/mlx.h \
-  /Users/jiyun/miniminirt/includes/libft.h \
+  /Users/jiyun/miniRT/includes/../mlx/mlx.h \
+  /Users/jiyun/miniRT/includes/libft.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_posix_vdisable.h \
@@ -103,10 +103,9 @@ CMakeFiles/miniRT.dir/src/parse_major_object.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/gethostuuid.h \
-  /Users/jiyun/miniminirt/includes/structures.h \
-  /Users/jiyun/miniminirt/includes/vector.h \
-  /Users/jiyun/miniminirt/includes/parse.h \
-  /Users/jiyun/miniminirt/includes/ray.h \
-  /Users/jiyun/miniminirt/includes/hit.h \
-  /Users/jiyun/miniminirt/includes/util.h \
-  /Users/jiyun/miniminirt/includes/object.h
+  /Users/jiyun/miniRT/includes/structures.h \
+  /Users/jiyun/miniRT/includes/vector.h \
+  /Users/jiyun/miniRT/includes/parse.h \
+  /Users/jiyun/miniRT/includes/ray.h /Users/jiyun/miniRT/includes/hit.h \
+  /Users/jiyun/miniRT/includes/util.h \
+  /Users/jiyun/miniRT/includes/object.h

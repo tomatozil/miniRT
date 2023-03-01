@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jiyun/miniminirt
+CMAKE_SOURCE_DIR = /Users/jiyun/miniRT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jiyun/miniminirt/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jiyun/miniRT/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/miniRT.dir/depend.make
@@ -72,828 +72,828 @@ include CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/main.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/main.c.o: ../src/main.c
 CMakeFiles/miniRT.dir/src/main.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/miniRT.dir/src/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/main.c.o -MF CMakeFiles/miniRT.dir/src/main.c.o.d -o CMakeFiles/miniRT.dir/src/main.c.o -c /Users/jiyun/miniminirt/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/miniRT.dir/src/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/main.c.o -MF CMakeFiles/miniRT.dir/src/main.c.o.d -o CMakeFiles/miniRT.dir/src/main.c.o -c /Users/jiyun/miniRT/src/main.c
 
 CMakeFiles/miniRT.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/main.c > CMakeFiles/miniRT.dir/src/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/main.c > CMakeFiles/miniRT.dir/src/main.c.i
 
 CMakeFiles/miniRT.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/main.c -o CMakeFiles/miniRT.dir/src/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/main.c -o CMakeFiles/miniRT.dir/src/main.c.s
 
 CMakeFiles/miniRT.dir/src/vector.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/vector.c.o: ../src/vector.c
 CMakeFiles/miniRT.dir/src/vector.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/miniRT.dir/src/vector.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/vector.c.o -MF CMakeFiles/miniRT.dir/src/vector.c.o.d -o CMakeFiles/miniRT.dir/src/vector.c.o -c /Users/jiyun/miniminirt/src/vector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/miniRT.dir/src/vector.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/vector.c.o -MF CMakeFiles/miniRT.dir/src/vector.c.o.d -o CMakeFiles/miniRT.dir/src/vector.c.o -c /Users/jiyun/miniRT/src/vector.c
 
 CMakeFiles/miniRT.dir/src/vector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/vector.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/vector.c > CMakeFiles/miniRT.dir/src/vector.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/vector.c > CMakeFiles/miniRT.dir/src/vector.c.i
 
 CMakeFiles/miniRT.dir/src/vector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/vector.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/vector.c -o CMakeFiles/miniRT.dir/src/vector.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/vector.c -o CMakeFiles/miniRT.dir/src/vector.c.s
 
 CMakeFiles/miniRT.dir/src/ray.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/ray.c.o: ../src/ray.c
 CMakeFiles/miniRT.dir/src/ray.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/miniRT.dir/src/ray.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/ray.c.o -MF CMakeFiles/miniRT.dir/src/ray.c.o.d -o CMakeFiles/miniRT.dir/src/ray.c.o -c /Users/jiyun/miniminirt/src/ray.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/miniRT.dir/src/ray.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/ray.c.o -MF CMakeFiles/miniRT.dir/src/ray.c.o.d -o CMakeFiles/miniRT.dir/src/ray.c.o -c /Users/jiyun/miniRT/src/ray.c
 
 CMakeFiles/miniRT.dir/src/ray.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/ray.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/ray.c > CMakeFiles/miniRT.dir/src/ray.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/ray.c > CMakeFiles/miniRT.dir/src/ray.c.i
 
 CMakeFiles/miniRT.dir/src/ray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/ray.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/ray.c -o CMakeFiles/miniRT.dir/src/ray.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/ray.c -o CMakeFiles/miniRT.dir/src/ray.c.s
 
 CMakeFiles/miniRT.dir/src/object.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/object.c.o: ../src/object.c
 CMakeFiles/miniRT.dir/src/object.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/miniRT.dir/src/object.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/object.c.o -MF CMakeFiles/miniRT.dir/src/object.c.o.d -o CMakeFiles/miniRT.dir/src/object.c.o -c /Users/jiyun/miniminirt/src/object.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/miniRT.dir/src/object.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/object.c.o -MF CMakeFiles/miniRT.dir/src/object.c.o.d -o CMakeFiles/miniRT.dir/src/object.c.o -c /Users/jiyun/miniRT/src/object.c
 
 CMakeFiles/miniRT.dir/src/object.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/object.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/object.c > CMakeFiles/miniRT.dir/src/object.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/object.c > CMakeFiles/miniRT.dir/src/object.c.i
 
 CMakeFiles/miniRT.dir/src/object.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/object.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/object.c -o CMakeFiles/miniRT.dir/src/object.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/object.c -o CMakeFiles/miniRT.dir/src/object.c.s
 
 CMakeFiles/miniRT.dir/src/hit.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/hit.c.o: ../src/hit.c
 CMakeFiles/miniRT.dir/src/hit.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/miniRT.dir/src/hit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/hit.c.o -MF CMakeFiles/miniRT.dir/src/hit.c.o.d -o CMakeFiles/miniRT.dir/src/hit.c.o -c /Users/jiyun/miniminirt/src/hit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/miniRT.dir/src/hit.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/hit.c.o -MF CMakeFiles/miniRT.dir/src/hit.c.o.d -o CMakeFiles/miniRT.dir/src/hit.c.o -c /Users/jiyun/miniRT/src/hit.c
 
 CMakeFiles/miniRT.dir/src/hit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/hit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/hit.c > CMakeFiles/miniRT.dir/src/hit.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/hit.c > CMakeFiles/miniRT.dir/src/hit.c.i
 
 CMakeFiles/miniRT.dir/src/hit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/hit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/hit.c -o CMakeFiles/miniRT.dir/src/hit.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/hit.c -o CMakeFiles/miniRT.dir/src/hit.c.s
 
 CMakeFiles/miniRT.dir/src/util.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/util.c.o: ../src/util.c
 CMakeFiles/miniRT.dir/src/util.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/miniRT.dir/src/util.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/util.c.o -MF CMakeFiles/miniRT.dir/src/util.c.o.d -o CMakeFiles/miniRT.dir/src/util.c.o -c /Users/jiyun/miniminirt/src/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/miniRT.dir/src/util.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/util.c.o -MF CMakeFiles/miniRT.dir/src/util.c.o.d -o CMakeFiles/miniRT.dir/src/util.c.o -c /Users/jiyun/miniRT/src/util.c
 
 CMakeFiles/miniRT.dir/src/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/util.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/util.c > CMakeFiles/miniRT.dir/src/util.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/util.c > CMakeFiles/miniRT.dir/src/util.c.i
 
 CMakeFiles/miniRT.dir/src/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/util.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/util.c -o CMakeFiles/miniRT.dir/src/util.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/util.c -o CMakeFiles/miniRT.dir/src/util.c.s
 
 CMakeFiles/miniRT.dir/src/lighting.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/lighting.c.o: ../src/lighting.c
 CMakeFiles/miniRT.dir/src/lighting.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/miniRT.dir/src/lighting.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/lighting.c.o -MF CMakeFiles/miniRT.dir/src/lighting.c.o.d -o CMakeFiles/miniRT.dir/src/lighting.c.o -c /Users/jiyun/miniminirt/src/lighting.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/miniRT.dir/src/lighting.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/lighting.c.o -MF CMakeFiles/miniRT.dir/src/lighting.c.o.d -o CMakeFiles/miniRT.dir/src/lighting.c.o -c /Users/jiyun/miniRT/src/lighting.c
 
 CMakeFiles/miniRT.dir/src/lighting.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/lighting.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/lighting.c > CMakeFiles/miniRT.dir/src/lighting.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/lighting.c > CMakeFiles/miniRT.dir/src/lighting.c.i
 
 CMakeFiles/miniRT.dir/src/lighting.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/lighting.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/lighting.c -o CMakeFiles/miniRT.dir/src/lighting.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/lighting.c -o CMakeFiles/miniRT.dir/src/lighting.c.s
 
 CMakeFiles/miniRT.dir/src/key.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/key.c.o: ../src/key.c
 CMakeFiles/miniRT.dir/src/key.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/miniRT.dir/src/key.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/key.c.o -MF CMakeFiles/miniRT.dir/src/key.c.o.d -o CMakeFiles/miniRT.dir/src/key.c.o -c /Users/jiyun/miniminirt/src/key.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/miniRT.dir/src/key.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/key.c.o -MF CMakeFiles/miniRT.dir/src/key.c.o.d -o CMakeFiles/miniRT.dir/src/key.c.o -c /Users/jiyun/miniRT/src/key.c
 
 CMakeFiles/miniRT.dir/src/key.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/key.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/key.c > CMakeFiles/miniRT.dir/src/key.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/key.c > CMakeFiles/miniRT.dir/src/key.c.i
 
 CMakeFiles/miniRT.dir/src/key.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/key.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/key.c -o CMakeFiles/miniRT.dir/src/key.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/key.c -o CMakeFiles/miniRT.dir/src/key.c.s
 
 CMakeFiles/miniRT.dir/src/parse_file.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/parse_file.c.o: ../src/parse_file.c
 CMakeFiles/miniRT.dir/src/parse_file.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/miniRT.dir/src/parse_file.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/parse_file.c.o -MF CMakeFiles/miniRT.dir/src/parse_file.c.o.d -o CMakeFiles/miniRT.dir/src/parse_file.c.o -c /Users/jiyun/miniminirt/src/parse_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/miniRT.dir/src/parse_file.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/parse_file.c.o -MF CMakeFiles/miniRT.dir/src/parse_file.c.o.d -o CMakeFiles/miniRT.dir/src/parse_file.c.o -c /Users/jiyun/miniRT/src/parse_file.c
 
 CMakeFiles/miniRT.dir/src/parse_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/parse_file.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/parse_file.c > CMakeFiles/miniRT.dir/src/parse_file.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/parse_file.c > CMakeFiles/miniRT.dir/src/parse_file.c.i
 
 CMakeFiles/miniRT.dir/src/parse_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/parse_file.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/parse_file.c -o CMakeFiles/miniRT.dir/src/parse_file.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/parse_file.c -o CMakeFiles/miniRT.dir/src/parse_file.c.s
 
 CMakeFiles/miniRT.dir/src/parse_major_object.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/parse_major_object.c.o: ../src/parse_major_object.c
 CMakeFiles/miniRT.dir/src/parse_major_object.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/miniRT.dir/src/parse_major_object.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/parse_major_object.c.o -MF CMakeFiles/miniRT.dir/src/parse_major_object.c.o.d -o CMakeFiles/miniRT.dir/src/parse_major_object.c.o -c /Users/jiyun/miniminirt/src/parse_major_object.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/miniRT.dir/src/parse_major_object.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/parse_major_object.c.o -MF CMakeFiles/miniRT.dir/src/parse_major_object.c.o.d -o CMakeFiles/miniRT.dir/src/parse_major_object.c.o -c /Users/jiyun/miniRT/src/parse_major_object.c
 
 CMakeFiles/miniRT.dir/src/parse_major_object.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/parse_major_object.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/parse_major_object.c > CMakeFiles/miniRT.dir/src/parse_major_object.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/parse_major_object.c > CMakeFiles/miniRT.dir/src/parse_major_object.c.i
 
 CMakeFiles/miniRT.dir/src/parse_major_object.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/parse_major_object.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/parse_major_object.c -o CMakeFiles/miniRT.dir/src/parse_major_object.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/parse_major_object.c -o CMakeFiles/miniRT.dir/src/parse_major_object.c.s
 
 CMakeFiles/miniRT.dir/src/parse_minor_object.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/parse_minor_object.c.o: ../src/parse_minor_object.c
 CMakeFiles/miniRT.dir/src/parse_minor_object.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/miniRT.dir/src/parse_minor_object.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/parse_minor_object.c.o -MF CMakeFiles/miniRT.dir/src/parse_minor_object.c.o.d -o CMakeFiles/miniRT.dir/src/parse_minor_object.c.o -c /Users/jiyun/miniminirt/src/parse_minor_object.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/miniRT.dir/src/parse_minor_object.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/parse_minor_object.c.o -MF CMakeFiles/miniRT.dir/src/parse_minor_object.c.o.d -o CMakeFiles/miniRT.dir/src/parse_minor_object.c.o -c /Users/jiyun/miniRT/src/parse_minor_object.c
 
 CMakeFiles/miniRT.dir/src/parse_minor_object.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/parse_minor_object.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/parse_minor_object.c > CMakeFiles/miniRT.dir/src/parse_minor_object.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/parse_minor_object.c > CMakeFiles/miniRT.dir/src/parse_minor_object.c.i
 
 CMakeFiles/miniRT.dir/src/parse_minor_object.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/parse_minor_object.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/parse_minor_object.c -o CMakeFiles/miniRT.dir/src/parse_minor_object.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/parse_minor_object.c -o CMakeFiles/miniRT.dir/src/parse_minor_object.c.s
 
 CMakeFiles/miniRT.dir/src/parse_util.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/src/parse_util.c.o: ../src/parse_util.c
 CMakeFiles/miniRT.dir/src/parse_util.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/miniRT.dir/src/parse_util.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/parse_util.c.o -MF CMakeFiles/miniRT.dir/src/parse_util.c.o.d -o CMakeFiles/miniRT.dir/src/parse_util.c.o -c /Users/jiyun/miniminirt/src/parse_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/miniRT.dir/src/parse_util.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/src/parse_util.c.o -MF CMakeFiles/miniRT.dir/src/parse_util.c.o.d -o CMakeFiles/miniRT.dir/src/parse_util.c.o -c /Users/jiyun/miniRT/src/parse_util.c
 
 CMakeFiles/miniRT.dir/src/parse_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/src/parse_util.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/src/parse_util.c > CMakeFiles/miniRT.dir/src/parse_util.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/src/parse_util.c > CMakeFiles/miniRT.dir/src/parse_util.c.i
 
 CMakeFiles/miniRT.dir/src/parse_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/src/parse_util.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/src/parse_util.c -o CMakeFiles/miniRT.dir/src/parse_util.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/src/parse_util.c -o CMakeFiles/miniRT.dir/src/parse_util.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_isdigit.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
 CMakeFiles/miniRT.dir/libft/ft_isdigit.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/miniRT.dir/libft/ft_isdigit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_isdigit.c.o -MF CMakeFiles/miniRT.dir/libft/ft_isdigit.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_isdigit.c.o -c /Users/jiyun/miniminirt/libft/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/miniRT.dir/libft/ft_isdigit.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_isdigit.c.o -MF CMakeFiles/miniRT.dir/libft/ft_isdigit.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_isdigit.c.o -c /Users/jiyun/miniRT/libft/ft_isdigit.c
 
 CMakeFiles/miniRT.dir/libft/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_isdigit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_isdigit.c > CMakeFiles/miniRT.dir/libft/ft_isdigit.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_isdigit.c > CMakeFiles/miniRT.dir/libft/ft_isdigit.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_isdigit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_isdigit.c -o CMakeFiles/miniRT.dir/libft/ft_isdigit.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_isdigit.c -o CMakeFiles/miniRT.dir/libft/ft_isdigit.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_isalnum.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
 CMakeFiles/miniRT.dir/libft/ft_isalnum.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/miniRT.dir/libft/ft_isalnum.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_isalnum.c.o -MF CMakeFiles/miniRT.dir/libft/ft_isalnum.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_isalnum.c.o -c /Users/jiyun/miniminirt/libft/ft_isalnum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/miniRT.dir/libft/ft_isalnum.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_isalnum.c.o -MF CMakeFiles/miniRT.dir/libft/ft_isalnum.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_isalnum.c.o -c /Users/jiyun/miniRT/libft/ft_isalnum.c
 
 CMakeFiles/miniRT.dir/libft/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_isalnum.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_isalnum.c > CMakeFiles/miniRT.dir/libft/ft_isalnum.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_isalnum.c > CMakeFiles/miniRT.dir/libft/ft_isalnum.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_isalnum.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_isalnum.c -o CMakeFiles/miniRT.dir/libft/ft_isalnum.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_isalnum.c -o CMakeFiles/miniRT.dir/libft/ft_isalnum.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_isascii.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_isascii.c.o: ../libft/ft_isascii.c
 CMakeFiles/miniRT.dir/libft/ft_isascii.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/miniRT.dir/libft/ft_isascii.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_isascii.c.o -MF CMakeFiles/miniRT.dir/libft/ft_isascii.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_isascii.c.o -c /Users/jiyun/miniminirt/libft/ft_isascii.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/miniRT.dir/libft/ft_isascii.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_isascii.c.o -MF CMakeFiles/miniRT.dir/libft/ft_isascii.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_isascii.c.o -c /Users/jiyun/miniRT/libft/ft_isascii.c
 
 CMakeFiles/miniRT.dir/libft/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_isascii.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_isascii.c > CMakeFiles/miniRT.dir/libft/ft_isascii.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_isascii.c > CMakeFiles/miniRT.dir/libft/ft_isascii.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_isascii.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_isascii.c -o CMakeFiles/miniRT.dir/libft/ft_isascii.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_isascii.c -o CMakeFiles/miniRT.dir/libft/ft_isascii.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_isprint.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_isprint.c.o: ../libft/ft_isprint.c
 CMakeFiles/miniRT.dir/libft/ft_isprint.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/miniRT.dir/libft/ft_isprint.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_isprint.c.o -MF CMakeFiles/miniRT.dir/libft/ft_isprint.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_isprint.c.o -c /Users/jiyun/miniminirt/libft/ft_isprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/miniRT.dir/libft/ft_isprint.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_isprint.c.o -MF CMakeFiles/miniRT.dir/libft/ft_isprint.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_isprint.c.o -c /Users/jiyun/miniRT/libft/ft_isprint.c
 
 CMakeFiles/miniRT.dir/libft/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_isprint.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_isprint.c > CMakeFiles/miniRT.dir/libft/ft_isprint.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_isprint.c > CMakeFiles/miniRT.dir/libft/ft_isprint.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_isprint.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_isprint.c -o CMakeFiles/miniRT.dir/libft/ft_isprint.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_isprint.c -o CMakeFiles/miniRT.dir/libft/ft_isprint.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_toupper.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
 CMakeFiles/miniRT.dir/libft/ft_toupper.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/miniRT.dir/libft/ft_toupper.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_toupper.c.o -MF CMakeFiles/miniRT.dir/libft/ft_toupper.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_toupper.c.o -c /Users/jiyun/miniminirt/libft/ft_toupper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/miniRT.dir/libft/ft_toupper.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_toupper.c.o -MF CMakeFiles/miniRT.dir/libft/ft_toupper.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_toupper.c.o -c /Users/jiyun/miniRT/libft/ft_toupper.c
 
 CMakeFiles/miniRT.dir/libft/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_toupper.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_toupper.c > CMakeFiles/miniRT.dir/libft/ft_toupper.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_toupper.c > CMakeFiles/miniRT.dir/libft/ft_toupper.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_toupper.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_toupper.c -o CMakeFiles/miniRT.dir/libft/ft_toupper.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_toupper.c -o CMakeFiles/miniRT.dir/libft/ft_toupper.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_tolower.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
 CMakeFiles/miniRT.dir/libft/ft_tolower.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/miniRT.dir/libft/ft_tolower.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_tolower.c.o -MF CMakeFiles/miniRT.dir/libft/ft_tolower.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_tolower.c.o -c /Users/jiyun/miniminirt/libft/ft_tolower.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/miniRT.dir/libft/ft_tolower.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_tolower.c.o -MF CMakeFiles/miniRT.dir/libft/ft_tolower.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_tolower.c.o -c /Users/jiyun/miniRT/libft/ft_tolower.c
 
 CMakeFiles/miniRT.dir/libft/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_tolower.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_tolower.c > CMakeFiles/miniRT.dir/libft/ft_tolower.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_tolower.c > CMakeFiles/miniRT.dir/libft/ft_tolower.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_tolower.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_tolower.c -o CMakeFiles/miniRT.dir/libft/ft_tolower.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_tolower.c -o CMakeFiles/miniRT.dir/libft/ft_tolower.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strncmp.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
 CMakeFiles/miniRT.dir/libft/ft_strncmp.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/miniRT.dir/libft/ft_strncmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strncmp.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strncmp.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strncmp.c.o -c /Users/jiyun/miniminirt/libft/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/miniRT.dir/libft/ft_strncmp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strncmp.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strncmp.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strncmp.c.o -c /Users/jiyun/miniRT/libft/ft_strncmp.c
 
 CMakeFiles/miniRT.dir/libft/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strncmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strncmp.c > CMakeFiles/miniRT.dir/libft/ft_strncmp.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strncmp.c > CMakeFiles/miniRT.dir/libft/ft_strncmp.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strncmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strncmp.c -o CMakeFiles/miniRT.dir/libft/ft_strncmp.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strncmp.c -o CMakeFiles/miniRT.dir/libft/ft_strncmp.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strlen.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
 CMakeFiles/miniRT.dir/libft/ft_strlen.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/miniRT.dir/libft/ft_strlen.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strlen.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strlen.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strlen.c.o -c /Users/jiyun/miniminirt/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/miniRT.dir/libft/ft_strlen.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strlen.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strlen.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strlen.c.o -c /Users/jiyun/miniRT/libft/ft_strlen.c
 
 CMakeFiles/miniRT.dir/libft/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strlen.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strlen.c > CMakeFiles/miniRT.dir/libft/ft_strlen.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strlen.c > CMakeFiles/miniRT.dir/libft/ft_strlen.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strlen.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strlen.c -o CMakeFiles/miniRT.dir/libft/ft_strlen.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strlen.c -o CMakeFiles/miniRT.dir/libft/ft_strlen.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o: ../libft/ft_strlcpy.c
 CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o -c /Users/jiyun/miniminirt/libft/ft_strlcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.o -c /Users/jiyun/miniRT/libft/ft_strlcpy.c
 
 CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strlcpy.c > CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strlcpy.c > CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strlcpy.c -o CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strlcpy.c -o CMakeFiles/miniRT.dir/libft/ft_strlcpy.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strlcat.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strlcat.c.o: ../libft/ft_strlcat.c
 CMakeFiles/miniRT.dir/libft/ft_strlcat.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/miniRT.dir/libft/ft_strlcat.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strlcat.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strlcat.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strlcat.c.o -c /Users/jiyun/miniminirt/libft/ft_strlcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/miniRT.dir/libft/ft_strlcat.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strlcat.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strlcat.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strlcat.c.o -c /Users/jiyun/miniRT/libft/ft_strlcat.c
 
 CMakeFiles/miniRT.dir/libft/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strlcat.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strlcat.c > CMakeFiles/miniRT.dir/libft/ft_strlcat.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strlcat.c > CMakeFiles/miniRT.dir/libft/ft_strlcat.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strlcat.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strlcat.c -o CMakeFiles/miniRT.dir/libft/ft_strlcat.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strlcat.c -o CMakeFiles/miniRT.dir/libft/ft_strlcat.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strchr.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
 CMakeFiles/miniRT.dir/libft/ft_strchr.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/miniRT.dir/libft/ft_strchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strchr.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strchr.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strchr.c.o -c /Users/jiyun/miniminirt/libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/miniRT.dir/libft/ft_strchr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strchr.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strchr.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strchr.c.o -c /Users/jiyun/miniRT/libft/ft_strchr.c
 
 CMakeFiles/miniRT.dir/libft/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strchr.c > CMakeFiles/miniRT.dir/libft/ft_strchr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strchr.c > CMakeFiles/miniRT.dir/libft/ft_strchr.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strchr.c -o CMakeFiles/miniRT.dir/libft/ft_strchr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strchr.c -o CMakeFiles/miniRT.dir/libft/ft_strchr.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strrchr.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strrchr.c.o: ../libft/ft_strrchr.c
 CMakeFiles/miniRT.dir/libft/ft_strrchr.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/miniRT.dir/libft/ft_strrchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strrchr.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strrchr.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strrchr.c.o -c /Users/jiyun/miniminirt/libft/ft_strrchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/miniRT.dir/libft/ft_strrchr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strrchr.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strrchr.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strrchr.c.o -c /Users/jiyun/miniRT/libft/ft_strrchr.c
 
 CMakeFiles/miniRT.dir/libft/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strrchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strrchr.c > CMakeFiles/miniRT.dir/libft/ft_strrchr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strrchr.c > CMakeFiles/miniRT.dir/libft/ft_strrchr.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strrchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strrchr.c -o CMakeFiles/miniRT.dir/libft/ft_strrchr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strrchr.c -o CMakeFiles/miniRT.dir/libft/ft_strrchr.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_memset.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
 CMakeFiles/miniRT.dir/libft/ft_memset.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/miniRT.dir/libft/ft_memset.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_memset.c.o -MF CMakeFiles/miniRT.dir/libft/ft_memset.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_memset.c.o -c /Users/jiyun/miniminirt/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/miniRT.dir/libft/ft_memset.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_memset.c.o -MF CMakeFiles/miniRT.dir/libft/ft_memset.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_memset.c.o -c /Users/jiyun/miniRT/libft/ft_memset.c
 
 CMakeFiles/miniRT.dir/libft/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_memset.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_memset.c > CMakeFiles/miniRT.dir/libft/ft_memset.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_memset.c > CMakeFiles/miniRT.dir/libft/ft_memset.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_memset.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_memset.c -o CMakeFiles/miniRT.dir/libft/ft_memset.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_memset.c -o CMakeFiles/miniRT.dir/libft/ft_memset.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_bzero.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
 CMakeFiles/miniRT.dir/libft/ft_bzero.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/miniRT.dir/libft/ft_bzero.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_bzero.c.o -MF CMakeFiles/miniRT.dir/libft/ft_bzero.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_bzero.c.o -c /Users/jiyun/miniminirt/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/miniRT.dir/libft/ft_bzero.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_bzero.c.o -MF CMakeFiles/miniRT.dir/libft/ft_bzero.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_bzero.c.o -c /Users/jiyun/miniRT/libft/ft_bzero.c
 
 CMakeFiles/miniRT.dir/libft/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_bzero.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_bzero.c > CMakeFiles/miniRT.dir/libft/ft_bzero.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_bzero.c > CMakeFiles/miniRT.dir/libft/ft_bzero.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_bzero.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_bzero.c -o CMakeFiles/miniRT.dir/libft/ft_bzero.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_bzero.c -o CMakeFiles/miniRT.dir/libft/ft_bzero.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_memcpy.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_memcpy.c.o: ../libft/ft_memcpy.c
 CMakeFiles/miniRT.dir/libft/ft_memcpy.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/miniRT.dir/libft/ft_memcpy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_memcpy.c.o -MF CMakeFiles/miniRT.dir/libft/ft_memcpy.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_memcpy.c.o -c /Users/jiyun/miniminirt/libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/miniRT.dir/libft/ft_memcpy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_memcpy.c.o -MF CMakeFiles/miniRT.dir/libft/ft_memcpy.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_memcpy.c.o -c /Users/jiyun/miniRT/libft/ft_memcpy.c
 
 CMakeFiles/miniRT.dir/libft/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_memcpy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_memcpy.c > CMakeFiles/miniRT.dir/libft/ft_memcpy.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_memcpy.c > CMakeFiles/miniRT.dir/libft/ft_memcpy.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_memcpy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_memcpy.c -o CMakeFiles/miniRT.dir/libft/ft_memcpy.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_memcpy.c -o CMakeFiles/miniRT.dir/libft/ft_memcpy.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_memmove.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_memmove.c.o: ../libft/ft_memmove.c
 CMakeFiles/miniRT.dir/libft/ft_memmove.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/miniRT.dir/libft/ft_memmove.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_memmove.c.o -MF CMakeFiles/miniRT.dir/libft/ft_memmove.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_memmove.c.o -c /Users/jiyun/miniminirt/libft/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/miniRT.dir/libft/ft_memmove.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_memmove.c.o -MF CMakeFiles/miniRT.dir/libft/ft_memmove.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_memmove.c.o -c /Users/jiyun/miniRT/libft/ft_memmove.c
 
 CMakeFiles/miniRT.dir/libft/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_memmove.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_memmove.c > CMakeFiles/miniRT.dir/libft/ft_memmove.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_memmove.c > CMakeFiles/miniRT.dir/libft/ft_memmove.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_memmove.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_memmove.c -o CMakeFiles/miniRT.dir/libft/ft_memmove.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_memmove.c -o CMakeFiles/miniRT.dir/libft/ft_memmove.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_memchr.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_memchr.c.o: ../libft/ft_memchr.c
 CMakeFiles/miniRT.dir/libft/ft_memchr.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/miniRT.dir/libft/ft_memchr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_memchr.c.o -MF CMakeFiles/miniRT.dir/libft/ft_memchr.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_memchr.c.o -c /Users/jiyun/miniminirt/libft/ft_memchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/miniRT.dir/libft/ft_memchr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_memchr.c.o -MF CMakeFiles/miniRT.dir/libft/ft_memchr.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_memchr.c.o -c /Users/jiyun/miniRT/libft/ft_memchr.c
 
 CMakeFiles/miniRT.dir/libft/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_memchr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_memchr.c > CMakeFiles/miniRT.dir/libft/ft_memchr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_memchr.c > CMakeFiles/miniRT.dir/libft/ft_memchr.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_memchr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_memchr.c -o CMakeFiles/miniRT.dir/libft/ft_memchr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_memchr.c -o CMakeFiles/miniRT.dir/libft/ft_memchr.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_memcmp.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_memcmp.c.o: ../libft/ft_memcmp.c
 CMakeFiles/miniRT.dir/libft/ft_memcmp.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/miniRT.dir/libft/ft_memcmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_memcmp.c.o -MF CMakeFiles/miniRT.dir/libft/ft_memcmp.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_memcmp.c.o -c /Users/jiyun/miniminirt/libft/ft_memcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/miniRT.dir/libft/ft_memcmp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_memcmp.c.o -MF CMakeFiles/miniRT.dir/libft/ft_memcmp.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_memcmp.c.o -c /Users/jiyun/miniRT/libft/ft_memcmp.c
 
 CMakeFiles/miniRT.dir/libft/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_memcmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_memcmp.c > CMakeFiles/miniRT.dir/libft/ft_memcmp.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_memcmp.c > CMakeFiles/miniRT.dir/libft/ft_memcmp.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_memcmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_memcmp.c -o CMakeFiles/miniRT.dir/libft/ft_memcmp.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_memcmp.c -o CMakeFiles/miniRT.dir/libft/ft_memcmp.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strnstr.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strnstr.c.o: ../libft/ft_strnstr.c
 CMakeFiles/miniRT.dir/libft/ft_strnstr.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/miniRT.dir/libft/ft_strnstr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strnstr.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strnstr.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strnstr.c.o -c /Users/jiyun/miniminirt/libft/ft_strnstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/miniRT.dir/libft/ft_strnstr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strnstr.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strnstr.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strnstr.c.o -c /Users/jiyun/miniRT/libft/ft_strnstr.c
 
 CMakeFiles/miniRT.dir/libft/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strnstr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strnstr.c > CMakeFiles/miniRT.dir/libft/ft_strnstr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strnstr.c > CMakeFiles/miniRT.dir/libft/ft_strnstr.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strnstr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strnstr.c -o CMakeFiles/miniRT.dir/libft/ft_strnstr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strnstr.c -o CMakeFiles/miniRT.dir/libft/ft_strnstr.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_atoi.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
 CMakeFiles/miniRT.dir/libft/ft_atoi.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/miniRT.dir/libft/ft_atoi.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_atoi.c.o -MF CMakeFiles/miniRT.dir/libft/ft_atoi.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_atoi.c.o -c /Users/jiyun/miniminirt/libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/miniRT.dir/libft/ft_atoi.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_atoi.c.o -MF CMakeFiles/miniRT.dir/libft/ft_atoi.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_atoi.c.o -c /Users/jiyun/miniRT/libft/ft_atoi.c
 
 CMakeFiles/miniRT.dir/libft/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_atoi.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_atoi.c > CMakeFiles/miniRT.dir/libft/ft_atoi.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_atoi.c > CMakeFiles/miniRT.dir/libft/ft_atoi.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_atoi.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_atoi.c -o CMakeFiles/miniRT.dir/libft/ft_atoi.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_atoi.c -o CMakeFiles/miniRT.dir/libft/ft_atoi.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_calloc.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_calloc.c.o: ../libft/ft_calloc.c
 CMakeFiles/miniRT.dir/libft/ft_calloc.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/miniRT.dir/libft/ft_calloc.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_calloc.c.o -MF CMakeFiles/miniRT.dir/libft/ft_calloc.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_calloc.c.o -c /Users/jiyun/miniminirt/libft/ft_calloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/miniRT.dir/libft/ft_calloc.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_calloc.c.o -MF CMakeFiles/miniRT.dir/libft/ft_calloc.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_calloc.c.o -c /Users/jiyun/miniRT/libft/ft_calloc.c
 
 CMakeFiles/miniRT.dir/libft/ft_calloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_calloc.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_calloc.c > CMakeFiles/miniRT.dir/libft/ft_calloc.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_calloc.c > CMakeFiles/miniRT.dir/libft/ft_calloc.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_calloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_calloc.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_calloc.c -o CMakeFiles/miniRT.dir/libft/ft_calloc.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_calloc.c -o CMakeFiles/miniRT.dir/libft/ft_calloc.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strdup.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
 CMakeFiles/miniRT.dir/libft/ft_strdup.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/miniRT.dir/libft/ft_strdup.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strdup.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strdup.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strdup.c.o -c /Users/jiyun/miniminirt/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/miniRT.dir/libft/ft_strdup.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strdup.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strdup.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strdup.c.o -c /Users/jiyun/miniRT/libft/ft_strdup.c
 
 CMakeFiles/miniRT.dir/libft/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strdup.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strdup.c > CMakeFiles/miniRT.dir/libft/ft_strdup.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strdup.c > CMakeFiles/miniRT.dir/libft/ft_strdup.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strdup.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strdup.c -o CMakeFiles/miniRT.dir/libft/ft_strdup.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strdup.c -o CMakeFiles/miniRT.dir/libft/ft_strdup.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_substr.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_substr.c.o: ../libft/ft_substr.c
 CMakeFiles/miniRT.dir/libft/ft_substr.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/miniRT.dir/libft/ft_substr.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_substr.c.o -MF CMakeFiles/miniRT.dir/libft/ft_substr.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_substr.c.o -c /Users/jiyun/miniminirt/libft/ft_substr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/miniRT.dir/libft/ft_substr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_substr.c.o -MF CMakeFiles/miniRT.dir/libft/ft_substr.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_substr.c.o -c /Users/jiyun/miniRT/libft/ft_substr.c
 
 CMakeFiles/miniRT.dir/libft/ft_substr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_substr.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_substr.c > CMakeFiles/miniRT.dir/libft/ft_substr.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_substr.c > CMakeFiles/miniRT.dir/libft/ft_substr.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_substr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_substr.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_substr.c -o CMakeFiles/miniRT.dir/libft/ft_substr.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_substr.c -o CMakeFiles/miniRT.dir/libft/ft_substr.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strjoin.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
 CMakeFiles/miniRT.dir/libft/ft_strjoin.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/miniRT.dir/libft/ft_strjoin.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strjoin.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strjoin.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strjoin.c.o -c /Users/jiyun/miniminirt/libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/miniRT.dir/libft/ft_strjoin.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strjoin.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strjoin.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strjoin.c.o -c /Users/jiyun/miniRT/libft/ft_strjoin.c
 
 CMakeFiles/miniRT.dir/libft/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strjoin.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strjoin.c > CMakeFiles/miniRT.dir/libft/ft_strjoin.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strjoin.c > CMakeFiles/miniRT.dir/libft/ft_strjoin.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strjoin.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strjoin.c -o CMakeFiles/miniRT.dir/libft/ft_strjoin.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strjoin.c -o CMakeFiles/miniRT.dir/libft/ft_strjoin.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strtrim.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strtrim.c.o: ../libft/ft_strtrim.c
 CMakeFiles/miniRT.dir/libft/ft_strtrim.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/miniRT.dir/libft/ft_strtrim.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strtrim.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strtrim.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strtrim.c.o -c /Users/jiyun/miniminirt/libft/ft_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/miniRT.dir/libft/ft_strtrim.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strtrim.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strtrim.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strtrim.c.o -c /Users/jiyun/miniRT/libft/ft_strtrim.c
 
 CMakeFiles/miniRT.dir/libft/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strtrim.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strtrim.c > CMakeFiles/miniRT.dir/libft/ft_strtrim.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strtrim.c > CMakeFiles/miniRT.dir/libft/ft_strtrim.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strtrim.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strtrim.c -o CMakeFiles/miniRT.dir/libft/ft_strtrim.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strtrim.c -o CMakeFiles/miniRT.dir/libft/ft_strtrim.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_split.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_split.c.o: ../libft/ft_split.c
 CMakeFiles/miniRT.dir/libft/ft_split.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/miniRT.dir/libft/ft_split.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_split.c.o -MF CMakeFiles/miniRT.dir/libft/ft_split.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_split.c.o -c /Users/jiyun/miniminirt/libft/ft_split.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/miniRT.dir/libft/ft_split.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_split.c.o -MF CMakeFiles/miniRT.dir/libft/ft_split.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_split.c.o -c /Users/jiyun/miniRT/libft/ft_split.c
 
 CMakeFiles/miniRT.dir/libft/ft_split.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_split.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_split.c > CMakeFiles/miniRT.dir/libft/ft_split.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_split.c > CMakeFiles/miniRT.dir/libft/ft_split.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_split.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_split.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_split.c -o CMakeFiles/miniRT.dir/libft/ft_split.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_split.c -o CMakeFiles/miniRT.dir/libft/ft_split.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_itoa.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_itoa.c.o: ../libft/ft_itoa.c
 CMakeFiles/miniRT.dir/libft/ft_itoa.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/miniRT.dir/libft/ft_itoa.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_itoa.c.o -MF CMakeFiles/miniRT.dir/libft/ft_itoa.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_itoa.c.o -c /Users/jiyun/miniminirt/libft/ft_itoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/miniRT.dir/libft/ft_itoa.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_itoa.c.o -MF CMakeFiles/miniRT.dir/libft/ft_itoa.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_itoa.c.o -c /Users/jiyun/miniRT/libft/ft_itoa.c
 
 CMakeFiles/miniRT.dir/libft/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_itoa.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_itoa.c > CMakeFiles/miniRT.dir/libft/ft_itoa.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_itoa.c > CMakeFiles/miniRT.dir/libft/ft_itoa.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_itoa.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_itoa.c -o CMakeFiles/miniRT.dir/libft/ft_itoa.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_itoa.c -o CMakeFiles/miniRT.dir/libft/ft_itoa.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_error.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_error.c.o: ../libft/ft_error.c
 CMakeFiles/miniRT.dir/libft/ft_error.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/miniRT.dir/libft/ft_error.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_error.c.o -MF CMakeFiles/miniRT.dir/libft/ft_error.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_error.c.o -c /Users/jiyun/miniminirt/libft/ft_error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/miniRT.dir/libft/ft_error.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_error.c.o -MF CMakeFiles/miniRT.dir/libft/ft_error.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_error.c.o -c /Users/jiyun/miniRT/libft/ft_error.c
 
 CMakeFiles/miniRT.dir/libft/ft_error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_error.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_error.c > CMakeFiles/miniRT.dir/libft/ft_error.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_error.c > CMakeFiles/miniRT.dir/libft/ft_error.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_error.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_error.c -o CMakeFiles/miniRT.dir/libft/ft_error.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_error.c -o CMakeFiles/miniRT.dir/libft/ft_error.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_free_strs.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_free_strs.c.o: ../libft/ft_free_strs.c
 CMakeFiles/miniRT.dir/libft/ft_free_strs.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/miniRT.dir/libft/ft_free_strs.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_free_strs.c.o -MF CMakeFiles/miniRT.dir/libft/ft_free_strs.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_free_strs.c.o -c /Users/jiyun/miniminirt/libft/ft_free_strs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/miniRT.dir/libft/ft_free_strs.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_free_strs.c.o -MF CMakeFiles/miniRT.dir/libft/ft_free_strs.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_free_strs.c.o -c /Users/jiyun/miniRT/libft/ft_free_strs.c
 
 CMakeFiles/miniRT.dir/libft/ft_free_strs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_free_strs.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_free_strs.c > CMakeFiles/miniRT.dir/libft/ft_free_strs.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_free_strs.c > CMakeFiles/miniRT.dir/libft/ft_free_strs.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_free_strs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_free_strs.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_free_strs.c -o CMakeFiles/miniRT.dir/libft/ft_free_strs.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_free_strs.c -o CMakeFiles/miniRT.dir/libft/ft_free_strs.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strslen.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strslen.c.o: ../libft/ft_strslen.c
 CMakeFiles/miniRT.dir/libft/ft_strslen.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/miniRT.dir/libft/ft_strslen.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strslen.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strslen.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strslen.c.o -c /Users/jiyun/miniminirt/libft/ft_strslen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/miniRT.dir/libft/ft_strslen.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strslen.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strslen.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strslen.c.o -c /Users/jiyun/miniRT/libft/ft_strslen.c
 
 CMakeFiles/miniRT.dir/libft/ft_strslen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strslen.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strslen.c > CMakeFiles/miniRT.dir/libft/ft_strslen.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strslen.c > CMakeFiles/miniRT.dir/libft/ft_strslen.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strslen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strslen.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strslen.c -o CMakeFiles/miniRT.dir/libft/ft_strslen.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strslen.c -o CMakeFiles/miniRT.dir/libft/ft_strslen.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strcmp.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
 CMakeFiles/miniRT.dir/libft/ft_strcmp.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/miniRT.dir/libft/ft_strcmp.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strcmp.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strcmp.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strcmp.c.o -c /Users/jiyun/miniminirt/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/miniRT.dir/libft/ft_strcmp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strcmp.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strcmp.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strcmp.c.o -c /Users/jiyun/miniRT/libft/ft_strcmp.c
 
 CMakeFiles/miniRT.dir/libft/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strcmp.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strcmp.c > CMakeFiles/miniRT.dir/libft/ft_strcmp.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strcmp.c > CMakeFiles/miniRT.dir/libft/ft_strcmp.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strcmp.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strcmp.c -o CMakeFiles/miniRT.dir/libft/ft_strcmp.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strcmp.c -o CMakeFiles/miniRT.dir/libft/ft_strcmp.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_strmapi.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_strmapi.c.o: ../libft/ft_strmapi.c
 CMakeFiles/miniRT.dir/libft/ft_strmapi.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/miniRT.dir/libft/ft_strmapi.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strmapi.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strmapi.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strmapi.c.o -c /Users/jiyun/miniminirt/libft/ft_strmapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/miniRT.dir/libft/ft_strmapi.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_strmapi.c.o -MF CMakeFiles/miniRT.dir/libft/ft_strmapi.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_strmapi.c.o -c /Users/jiyun/miniRT/libft/ft_strmapi.c
 
 CMakeFiles/miniRT.dir/libft/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_strmapi.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_strmapi.c > CMakeFiles/miniRT.dir/libft/ft_strmapi.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_strmapi.c > CMakeFiles/miniRT.dir/libft/ft_strmapi.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_strmapi.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_strmapi.c -o CMakeFiles/miniRT.dir/libft/ft_strmapi.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_strmapi.c -o CMakeFiles/miniRT.dir/libft/ft_strmapi.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_striteri.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_striteri.c.o: ../libft/ft_striteri.c
 CMakeFiles/miniRT.dir/libft/ft_striteri.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/miniRT.dir/libft/ft_striteri.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_striteri.c.o -MF CMakeFiles/miniRT.dir/libft/ft_striteri.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_striteri.c.o -c /Users/jiyun/miniminirt/libft/ft_striteri.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/miniRT.dir/libft/ft_striteri.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_striteri.c.o -MF CMakeFiles/miniRT.dir/libft/ft_striteri.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_striteri.c.o -c /Users/jiyun/miniRT/libft/ft_striteri.c
 
 CMakeFiles/miniRT.dir/libft/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_striteri.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_striteri.c > CMakeFiles/miniRT.dir/libft/ft_striteri.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_striteri.c > CMakeFiles/miniRT.dir/libft/ft_striteri.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_striteri.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_striteri.c -o CMakeFiles/miniRT.dir/libft/ft_striteri.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_striteri.c -o CMakeFiles/miniRT.dir/libft/ft_striteri.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.o: ../libft/ft_putchar_fd.c
 CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.o -MF CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.o -c /Users/jiyun/miniminirt/libft/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.o -MF CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.o -c /Users/jiyun/miniRT/libft/ft_putchar_fd.c
 
 CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_putchar_fd.c > CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_putchar_fd.c > CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_putchar_fd.c -o CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_putchar_fd.c -o CMakeFiles/miniRT.dir/libft/ft_putchar_fd.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
 CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.o -MF CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.o -c /Users/jiyun/miniminirt/libft/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.o -MF CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.o -c /Users/jiyun/miniRT/libft/ft_putstr_fd.c
 
 CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_putstr_fd.c > CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_putstr_fd.c > CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_putstr_fd.c -o CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_putstr_fd.c -o CMakeFiles/miniRT.dir/libft/ft_putstr_fd.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.o: ../libft/ft_putendl_fd.c
 CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.o -MF CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.o -c /Users/jiyun/miniminirt/libft/ft_putendl_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.o -MF CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.o -c /Users/jiyun/miniRT/libft/ft_putendl_fd.c
 
 CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_putendl_fd.c > CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_putendl_fd.c > CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_putendl_fd.c -o CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_putendl_fd.c -o CMakeFiles/miniRT.dir/libft/ft_putendl_fd.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.o: ../libft/ft_putnbr_fd.c
 CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.o -MF CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.o -c /Users/jiyun/miniminirt/libft/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.o -MF CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.o -c /Users/jiyun/miniRT/libft/ft_putnbr_fd.c
 
 CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_putnbr_fd.c > CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_putnbr_fd.c > CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_putnbr_fd.c -o CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_putnbr_fd.c -o CMakeFiles/miniRT.dir/libft/ft_putnbr_fd.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_atod.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_atod.c.o: ../libft/ft_atod.c
 CMakeFiles/miniRT.dir/libft/ft_atod.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/miniRT.dir/libft/ft_atod.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_atod.c.o -MF CMakeFiles/miniRT.dir/libft/ft_atod.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_atod.c.o -c /Users/jiyun/miniminirt/libft/ft_atod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/miniRT.dir/libft/ft_atod.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_atod.c.o -MF CMakeFiles/miniRT.dir/libft/ft_atod.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_atod.c.o -c /Users/jiyun/miniRT/libft/ft_atod.c
 
 CMakeFiles/miniRT.dir/libft/ft_atod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_atod.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_atod.c > CMakeFiles/miniRT.dir/libft/ft_atod.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_atod.c > CMakeFiles/miniRT.dir/libft/ft_atod.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_atod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_atod.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_atod.c -o CMakeFiles/miniRT.dir/libft/ft_atod.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_atod.c -o CMakeFiles/miniRT.dir/libft/ft_atod.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_lstnew.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_lstnew.c.o: ../libft/ft_lstnew.c
 CMakeFiles/miniRT.dir/libft/ft_lstnew.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstnew.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstnew.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstnew.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstnew.c.o -c /Users/jiyun/miniminirt/libft/ft_lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstnew.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstnew.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstnew.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstnew.c.o -c /Users/jiyun/miniRT/libft/ft_lstnew.c
 
 CMakeFiles/miniRT.dir/libft/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_lstnew.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_lstnew.c > CMakeFiles/miniRT.dir/libft/ft_lstnew.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_lstnew.c > CMakeFiles/miniRT.dir/libft/ft_lstnew.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_lstnew.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_lstnew.c -o CMakeFiles/miniRT.dir/libft/ft_lstnew.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_lstnew.c -o CMakeFiles/miniRT.dir/libft/ft_lstnew.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.o: ../libft/ft_lstadd_front.c
 CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.o -c /Users/jiyun/miniminirt/libft/ft_lstadd_front.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.o -c /Users/jiyun/miniRT/libft/ft_lstadd_front.c
 
 CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_lstadd_front.c > CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_lstadd_front.c > CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_lstadd_front.c -o CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_lstadd_front.c -o CMakeFiles/miniRT.dir/libft/ft_lstadd_front.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_lstsize.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_lstsize.c.o: ../libft/ft_lstsize.c
 CMakeFiles/miniRT.dir/libft/ft_lstsize.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstsize.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstsize.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstsize.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstsize.c.o -c /Users/jiyun/miniminirt/libft/ft_lstsize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstsize.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstsize.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstsize.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstsize.c.o -c /Users/jiyun/miniRT/libft/ft_lstsize.c
 
 CMakeFiles/miniRT.dir/libft/ft_lstsize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_lstsize.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_lstsize.c > CMakeFiles/miniRT.dir/libft/ft_lstsize.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_lstsize.c > CMakeFiles/miniRT.dir/libft/ft_lstsize.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_lstsize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_lstsize.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_lstsize.c -o CMakeFiles/miniRT.dir/libft/ft_lstsize.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_lstsize.c -o CMakeFiles/miniRT.dir/libft/ft_lstsize.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_lstlast.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_lstlast.c.o: ../libft/ft_lstlast.c
 CMakeFiles/miniRT.dir/libft/ft_lstlast.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstlast.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstlast.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstlast.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstlast.c.o -c /Users/jiyun/miniminirt/libft/ft_lstlast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstlast.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstlast.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstlast.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstlast.c.o -c /Users/jiyun/miniRT/libft/ft_lstlast.c
 
 CMakeFiles/miniRT.dir/libft/ft_lstlast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_lstlast.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_lstlast.c > CMakeFiles/miniRT.dir/libft/ft_lstlast.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_lstlast.c > CMakeFiles/miniRT.dir/libft/ft_lstlast.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_lstlast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_lstlast.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_lstlast.c -o CMakeFiles/miniRT.dir/libft/ft_lstlast.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_lstlast.c -o CMakeFiles/miniRT.dir/libft/ft_lstlast.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.o: ../libft/ft_lstadd_back.c
 CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.o -c /Users/jiyun/miniminirt/libft/ft_lstadd_back.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.o -c /Users/jiyun/miniRT/libft/ft_lstadd_back.c
 
 CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_lstadd_back.c > CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_lstadd_back.c > CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_lstadd_back.c -o CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_lstadd_back.c -o CMakeFiles/miniRT.dir/libft/ft_lstadd_back.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.o: ../libft/ft_lstdelone.c
 CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.o -c /Users/jiyun/miniminirt/libft/ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.o -c /Users/jiyun/miniRT/libft/ft_lstdelone.c
 
 CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_lstdelone.c > CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_lstdelone.c > CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_lstdelone.c -o CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_lstdelone.c -o CMakeFiles/miniRT.dir/libft/ft_lstdelone.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_lstclear.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_lstclear.c.o: ../libft/ft_lstclear.c
 CMakeFiles/miniRT.dir/libft/ft_lstclear.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstclear.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstclear.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstclear.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstclear.c.o -c /Users/jiyun/miniminirt/libft/ft_lstclear.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstclear.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstclear.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstclear.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstclear.c.o -c /Users/jiyun/miniRT/libft/ft_lstclear.c
 
 CMakeFiles/miniRT.dir/libft/ft_lstclear.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_lstclear.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_lstclear.c > CMakeFiles/miniRT.dir/libft/ft_lstclear.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_lstclear.c > CMakeFiles/miniRT.dir/libft/ft_lstclear.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_lstclear.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_lstclear.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_lstclear.c -o CMakeFiles/miniRT.dir/libft/ft_lstclear.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_lstclear.c -o CMakeFiles/miniRT.dir/libft/ft_lstclear.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o: ../libft/ft_lstiter.c
 CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o -c /Users/jiyun/miniminirt/libft/ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o -c /Users/jiyun/miniRT/libft/ft_lstiter.c
 
 CMakeFiles/miniRT.dir/libft/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_lstiter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_lstiter.c > CMakeFiles/miniRT.dir/libft/ft_lstiter.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_lstiter.c > CMakeFiles/miniRT.dir/libft/ft_lstiter.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_lstiter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_lstiter.c -o CMakeFiles/miniRT.dir/libft/ft_lstiter.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_lstiter.c -o CMakeFiles/miniRT.dir/libft/ft_lstiter.c.s
 
 CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o: CMakeFiles/miniRT.dir/flags.make
 CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o: ../libft/ft_lstmap.c
 CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o: CMakeFiles/miniRT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o -c /Users/jiyun/miniminirt/libft/ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o -MF CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o.d -o CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o -c /Users/jiyun/miniRT/libft/ft_lstmap.c
 
 CMakeFiles/miniRT.dir/libft/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniRT.dir/libft/ft_lstmap.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniminirt/libft/ft_lstmap.c > CMakeFiles/miniRT.dir/libft/ft_lstmap.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jiyun/miniRT/libft/ft_lstmap.c > CMakeFiles/miniRT.dir/libft/ft_lstmap.c.i
 
 CMakeFiles/miniRT.dir/libft/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniRT.dir/libft/ft_lstmap.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniminirt/libft/ft_lstmap.c -o CMakeFiles/miniRT.dir/libft/ft_lstmap.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jiyun/miniRT/libft/ft_lstmap.c -o CMakeFiles/miniRT.dir/libft/ft_lstmap.c.s
 
 # Object files for target miniRT
 miniRT_OBJECTS = \
@@ -1021,7 +1021,7 @@ miniRT: CMakeFiles/miniRT.dir/libft/ft_lstiter.c.o
 miniRT: CMakeFiles/miniRT.dir/libft/ft_lstmap.c.o
 miniRT: CMakeFiles/miniRT.dir/build.make
 miniRT: CMakeFiles/miniRT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking C executable miniRT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jiyun/miniRT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking C executable miniRT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/miniRT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1033,6 +1033,6 @@ CMakeFiles/miniRT.dir/clean:
 .PHONY : CMakeFiles/miniRT.dir/clean
 
 CMakeFiles/miniRT.dir/depend:
-	cd /Users/jiyun/miniminirt/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jiyun/miniminirt /Users/jiyun/miniminirt /Users/jiyun/miniminirt/cmake-build-debug /Users/jiyun/miniminirt/cmake-build-debug /Users/jiyun/miniminirt/cmake-build-debug/CMakeFiles/miniRT.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jiyun/miniRT/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jiyun/miniRT /Users/jiyun/miniRT /Users/jiyun/miniRT/cmake-build-debug /Users/jiyun/miniRT/cmake-build-debug /Users/jiyun/miniRT/cmake-build-debug/CMakeFiles/miniRT.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/miniRT.dir/depend
 
