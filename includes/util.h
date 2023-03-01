@@ -1,7 +1,7 @@
 #ifndef LIST_H
 #define LIST_H
 
-# include "minirt.h"
+# include "structures.h"
 
 void	obj_add(t_object **list, t_object *new);
 int	red_button(int exitcode, t_info *info);

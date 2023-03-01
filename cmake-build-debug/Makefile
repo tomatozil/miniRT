@@ -1305,6 +1305,126 @@ src/key.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key.c.s
 .PHONY : src/key.c.s
 
+src/key_move.o: src/key_move.c.o
+.PHONY : src/key_move.o
+
+# target to build an object file
+src/key_move.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_move.c.o
+.PHONY : src/key_move.c.o
+
+src/key_move.i: src/key_move.c.i
+.PHONY : src/key_move.i
+
+# target to preprocess a source file
+src/key_move.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_move.c.i
+.PHONY : src/key_move.c.i
+
+src/key_move.s: src/key_move.c.s
+.PHONY : src/key_move.s
+
+# target to generate assembly for a file
+src/key_move.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_move.c.s
+.PHONY : src/key_move.c.s
+
+src/key_move_util.o: src/key_move_util.c.o
+.PHONY : src/key_move_util.o
+
+# target to build an object file
+src/key_move_util.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_move_util.c.o
+.PHONY : src/key_move_util.c.o
+
+src/key_move_util.i: src/key_move_util.c.i
+.PHONY : src/key_move_util.i
+
+# target to preprocess a source file
+src/key_move_util.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_move_util.c.i
+.PHONY : src/key_move_util.c.i
+
+src/key_move_util.s: src/key_move_util.c.s
+.PHONY : src/key_move_util.s
+
+# target to generate assembly for a file
+src/key_move_util.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_move_util.c.s
+.PHONY : src/key_move_util.c.s
+
+src/key_rotate.o: src/key_rotate.c.o
+.PHONY : src/key_rotate.o
+
+# target to build an object file
+src/key_rotate.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_rotate.c.o
+.PHONY : src/key_rotate.c.o
+
+src/key_rotate.i: src/key_rotate.c.i
+.PHONY : src/key_rotate.i
+
+# target to preprocess a source file
+src/key_rotate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_rotate.c.i
+.PHONY : src/key_rotate.c.i
+
+src/key_rotate.s: src/key_rotate.c.s
+.PHONY : src/key_rotate.s
+
+# target to generate assembly for a file
+src/key_rotate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_rotate.c.s
+.PHONY : src/key_rotate.c.s
+
+src/key_rotate_util.o: src/key_rotate_util.c.o
+.PHONY : src/key_rotate_util.o
+
+# target to build an object file
+src/key_rotate_util.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_rotate_util.c.o
+.PHONY : src/key_rotate_util.c.o
+
+src/key_rotate_util.i: src/key_rotate_util.c.i
+.PHONY : src/key_rotate_util.i
+
+# target to preprocess a source file
+src/key_rotate_util.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_rotate_util.c.i
+.PHONY : src/key_rotate_util.c.i
+
+src/key_rotate_util.s: src/key_rotate_util.c.s
+.PHONY : src/key_rotate_util.s
+
+# target to generate assembly for a file
+src/key_rotate_util.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_rotate_util.c.s
+.PHONY : src/key_rotate_util.c.s
+
+src/key_util.o: src/key_util.c.o
+.PHONY : src/key_util.o
+
+# target to build an object file
+src/key_util.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_util.c.o
+.PHONY : src/key_util.c.o
+
+src/key_util.i: src/key_util.c.i
+.PHONY : src/key_util.i
+
+# target to preprocess a source file
+src/key_util.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_util.c.i
+.PHONY : src/key_util.c.i
+
+src/key_util.s: src/key_util.c.s
+.PHONY : src/key_util.s
+
+# target to generate assembly for a file
+src/key_util.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_util.c.s
+.PHONY : src/key_util.c.s
+
 src/lighting.o: src/lighting.c.o
 .PHONY : src/lighting.o
 
@@ -1701,6 +1821,21 @@ help:
 	@echo "... src/key.o"
 	@echo "... src/key.i"
 	@echo "... src/key.s"
+	@echo "... src/key_move.o"
+	@echo "... src/key_move.i"
+	@echo "... src/key_move.s"
+	@echo "... src/key_move_util.o"
+	@echo "... src/key_move_util.i"
+	@echo "... src/key_move_util.s"
+	@echo "... src/key_rotate.o"
+	@echo "... src/key_rotate.i"
+	@echo "... src/key_rotate.s"
+	@echo "... src/key_rotate_util.o"
+	@echo "... src/key_rotate_util.i"
+	@echo "... src/key_rotate_util.s"
+	@echo "... src/key_util.o"
+	@echo "... src/key_util.i"
+	@echo "... src/key_util.s"
 	@echo "... src/lighting.o"
 	@echo "... src/lighting.i"
 	@echo "... src/lighting.s"

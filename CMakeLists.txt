@@ -18,6 +18,11 @@ add_executable(miniRT
         src/parse_major_object.c
         src/parse_minor_object.c
         src/parse_util.c
+        src/key_move.c
+        src/key_move_util.c
+        src/key_rotate.c
+        src/key_rotate_util.c
+        src/key_util.c
         libft/ft_isdigit.c
         libft/ft_isalnum.c
         libft/ft_isascii.c

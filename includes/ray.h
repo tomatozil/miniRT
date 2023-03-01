@@ -1,7 +1,7 @@
 #ifndef RAY_H
 #define RAY_H
 
-# include "minirt.h"
+# include "structures.h"
 
 t_ray		ray_set(t_point3 point, t_vec3 vec);
 t_point3	ray_dest(t_ray ray, double t);

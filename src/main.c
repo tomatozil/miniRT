@@ -27,11 +27,11 @@ void	cam_setting(t_cam *cam) // 원래 이름 cam_init
 	t_vec3	hor;
 	t_vec3	ver;
 
-	// ------파싱에서 넣어주는 부분------
-	cam->fov = 90.0;
-	cam->origin = point3(0, 0, 5);
-	cam->dir = vec3(0, 0, -1);
-	// ---------------------------
+//	// ------파싱에서 넣어주는 부분------
+//	cam->fov = 90.0;
+//	cam->origin = point3(0, 0, 5);
+//	cam->dir = vec3(0, 0, -1);
+//	// ---------------------------
 
 	cam->focal_len = tan((cam->fov * M_PI / 180.0) / 2.0);
 	cam->viewport_h = 2.0 * cam->focal_len;
@@ -126,8 +126,8 @@ int main(int argc, char *argv[])
 
 	parse(argv[1], &info);
 	draw(&info);
-//	mlx_hook(info.win, 2, 0, key_press, info);
-//	mlx_hook(info.win, 17, 0, red_button, info);
+	mlx_hook(info.win, 2, 0, key_press, &info);
+	mlx_hook(info.win, 17, 0, red_button, &info);
 	mlx_loop(info.mlx);
 	return (0);
 }
