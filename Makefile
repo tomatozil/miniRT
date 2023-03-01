@@ -13,6 +13,11 @@ SRCS_FILES = main.c \
 		parse_util.c \
 		vector.c \
 		object.c \
+		key_move.c \
+		key_move_util.c \
+		key_rotate.c \
+        key_rotate_util.c \
+        key_util.c \
 		ray.c \
 		hit.c \
 		lighting.c \

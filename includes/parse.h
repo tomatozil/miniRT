@@ -1,7 +1,7 @@
 #ifndef PARSE_H
 #define PARSE_H
 
-#include "minirt.h"
+#include "structures.h"
 
 t_color3	parse_color(char *str);
 t_point3	parse_pt(char *str);

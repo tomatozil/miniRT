@@ -227,6 +227,21 @@
 		<Unit filename="/Users/jiyun/miniRT/src/key.c">
 			<Option target="miniRT"/>
 		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/key_move.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/key_move_util.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/key_rotate.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/key_rotate_util.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/key_util.c">
+			<Option target="miniRT"/>
+		</Unit>
 		<Unit filename="/Users/jiyun/miniRT/src/lighting.c">
 			<Option target="miniRT"/>
 		</Unit>

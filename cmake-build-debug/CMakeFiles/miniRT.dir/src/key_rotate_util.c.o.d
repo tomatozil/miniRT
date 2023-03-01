@@ -1,4 +1,5 @@
-CMakeFiles/miniRT.dir/src/util.c.o: /Users/jiyun/miniRT/src/util.c \
+CMakeFiles/miniRT.dir/src/key_rotate_util.c.o: \
+  /Users/jiyun/miniRT/src/key_rotate_util.c \
   /Users/jiyun/miniRT/includes/minirt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/fcntl.h \

@@ -5,7 +5,9 @@ typedef enum e_obj_type
 {
 	SPHERE,
 	PLANE,
-	CYLINDER
+	CYLINDER,
+	CAMERA,
+	LIGHT
 }	t_obj_type;
 
 struct s_dot3
@@ -110,6 +112,8 @@ typedef struct s_info
 	t_ambient		ambient; //추후 t_ambient
 	t_ray			ray;
 	t_hit_record	rec;
+	void			*clicked;
+	int				clicked_type;
 }	t_info;
 
 #endif

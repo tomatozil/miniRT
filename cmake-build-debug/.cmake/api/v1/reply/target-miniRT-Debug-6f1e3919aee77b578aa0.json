@@ -124,7 +124,12 @@
 				55,
 				56,
 				57,
-				58
+				58,
+				59,
+				60,
+				61,
+				62,
+				63
 			]
 		}
 	],
@@ -215,7 +220,12 @@
 				55,
 				56,
 				57,
-				58
+				58,
+				59,
+				60,
+				61,
+				62,
+				63
 			]
 		}
 	],
@@ -291,6 +301,36 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/parse_util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/key_move.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/key_move_util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/key_rotate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/key_rotate_util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/key_util.c",
 			"sourceGroupIndex" : 0
 		},
 		{

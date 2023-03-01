@@ -8,13 +8,14 @@
 # include "../mlx/mlx.h"
 
 # include "libft.h"
-# include "structures.h"
+//# include "structures.h"
 # include "vector.h"
 # include "parse.h"
 # include "ray.h"
 # include "hit.h"
 # include "util.h"
 # include "object.h"
+# include "key_map.h"
 
 # define FALSE 0
 # define TRUE 1
@@ -38,5 +39,7 @@ typedef enum e_info_type
 void	tmp_init(t_info *info);
 
 void draw(t_info *info);
+void	cam_setting(t_cam *cam);
+t_vec3	cam_set_vup(t_vec3 dir);
 
 #endif
