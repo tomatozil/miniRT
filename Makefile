@@ -7,21 +7,21 @@ INCLUDES = -I./includes
 
 SRCS = $(addprefix ./src/, ${SRCS_FILES})
 SRCS_FILES = main.c \
-		parse_file.c \
-		parse_major_object.c \
-		parse_minor_object.c \
-		parse_util.c \
-		vector.c \
-		object.c \
-		key_move.c \
-		key_move_util.c \
-		key_rotate.c \
-        key_rotate_util.c \
-        key_util.c \
-		ray.c \
-		hit.c \
-		lighting.c \
-		util.c
+			vector.c \
+			ray.c \
+			object.c \
+			hit.c \
+			setting.c \
+			lighting.c \
+			parse_file.c \
+			parse_major_object.c \
+			parse_minor_object.c \
+			parse_util.c \
+			key_move.c \
+			key_move_util.c \
+			key_rotate.c \
+			key_rotate_util.c \
+			key.c
 
 OBJS = $(SRCS:.c=.o)
 LIBFT = libft/libft.a

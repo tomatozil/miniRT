@@ -74,6 +74,7 @@ void draw(t_info *info)
 
 int	red_button(int exitcode, t_info *info)
 {
+	(void)info;
 	exit(exitcode);
 }
 
