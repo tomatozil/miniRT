@@ -9,7 +9,6 @@ SRCS = $(addprefix ./src/, ${SRCS_FILES})
 SRCS_FILES = main.c \
 			vector.c \
 			ray.c \
-			object.c \
 			hit.c \
 			setting.c \
 			lighting.c \

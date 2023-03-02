@@ -9,7 +9,6 @@ add_executable(miniRT
         src/main.c
         src/vector.c
         src/ray.c
-        src/object.c
         src/hit.c
         src/setting.c
         src/lighting.c

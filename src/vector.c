@@ -89,10 +89,7 @@ t_vec3	unit(t_vec3 vec)
 
 	len = vlen(vec);
 	if (len == 0)
-	{
-		printf("Error: Devider is 0\n");
-		exit(1);
-	}
+		ft_error("Vector length is 0\n");
 	new.x = vec.x / len;
 	new.y = vec.y / len;
 	new.z = vec.z / len;

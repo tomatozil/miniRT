@@ -38,3 +38,21 @@ void	cam_setting(t_cam *cam)
 	cam->left_bottom = minus(minus(minus(cam->origin, \
 		devide_t(cam->dir_hor, 2)), devide_t(cam->dir_ver, 2)), opposite);
 }
+
+void	free_objects(t_info *info)
+{
+	t_object *lst;
+	t_object *to_del;
+
+	lst = info->objects;
+	if (!lst)
+		return ;
+	while (lst)
+	{
+		to_del = lst;
+		lst = lst->next;
+		free(to_del->element);
+		free(to_del);
+		to_del = NULL;
+	}
+}

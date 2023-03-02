@@ -104,7 +104,12 @@ int	key_press(int keycode, t_info *info)
 	if (!is_valid_key(keycode))
 		return (0);
 	if (keycode == KEY_ESC)
+	{
+		free_objects(info);
+		if (info->mlx && info->win)
+			mlx_destroy_window(info->mlx, info->win);
 		exit(0);
+	}
 	select_object_by_key(info, keycode);
 	if (!info->clicked)
 		return (0);
