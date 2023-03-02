@@ -128,8 +128,7 @@
 				59,
 				60,
 				61,
-				62,
-				63
+				62
 			]
 		}
 	],
@@ -224,8 +223,7 @@
 				59,
 				60,
 				61,
-				62,
-				63
+				62
 			]
 		}
 	],
@@ -264,19 +262,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/util.c",
+			"path" : "src/setting.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/lighting.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/key.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -330,7 +322,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/key_util.c",
+			"path" : "src/key.c",
 			"sourceGroupIndex" : 0
 		},
 		{

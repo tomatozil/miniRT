@@ -3,6 +3,8 @@
 
 #include "structures.h"
 
+void	obj_add(t_object **list, t_object *new);
+
 t_color3	parse_color(char *str);
 t_point3	parse_pt(char *str);
 t_point3	parse_n_vec(char *str);

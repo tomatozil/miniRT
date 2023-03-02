@@ -1401,30 +1401,6 @@ src/key_rotate_util.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_rotate_util.c.s
 .PHONY : src/key_rotate_util.c.s
 
-src/key_util.o: src/key_util.c.o
-.PHONY : src/key_util.o
-
-# target to build an object file
-src/key_util.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_util.c.o
-.PHONY : src/key_util.c.o
-
-src/key_util.i: src/key_util.c.i
-.PHONY : src/key_util.i
-
-# target to preprocess a source file
-src/key_util.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_util.c.i
-.PHONY : src/key_util.c.i
-
-src/key_util.s: src/key_util.c.s
-.PHONY : src/key_util.s
-
-# target to generate assembly for a file
-src/key_util.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/key_util.c.s
-.PHONY : src/key_util.c.s
-
 src/lighting.o: src/lighting.c.o
 .PHONY : src/lighting.o
 
@@ -1617,29 +1593,29 @@ src/ray.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/ray.c.s
 .PHONY : src/ray.c.s
 
-src/util.o: src/util.c.o
-.PHONY : src/util.o
+src/setting.o: src/setting.c.o
+.PHONY : src/setting.o
 
 # target to build an object file
-src/util.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/util.c.o
-.PHONY : src/util.c.o
+src/setting.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/setting.c.o
+.PHONY : src/setting.c.o
 
-src/util.i: src/util.c.i
-.PHONY : src/util.i
+src/setting.i: src/setting.c.i
+.PHONY : src/setting.i
 
 # target to preprocess a source file
-src/util.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/util.c.i
-.PHONY : src/util.c.i
+src/setting.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/setting.c.i
+.PHONY : src/setting.c.i
 
-src/util.s: src/util.c.s
-.PHONY : src/util.s
+src/setting.s: src/setting.c.s
+.PHONY : src/setting.s
 
 # target to generate assembly for a file
-src/util.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/util.c.s
-.PHONY : src/util.c.s
+src/setting.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/miniRT.dir/build.make CMakeFiles/miniRT.dir/src/setting.c.s
+.PHONY : src/setting.c.s
 
 src/vector.o: src/vector.c.o
 .PHONY : src/vector.o
@@ -1833,9 +1809,6 @@ help:
 	@echo "... src/key_rotate_util.o"
 	@echo "... src/key_rotate_util.i"
 	@echo "... src/key_rotate_util.s"
-	@echo "... src/key_util.o"
-	@echo "... src/key_util.i"
-	@echo "... src/key_util.s"
 	@echo "... src/lighting.o"
 	@echo "... src/lighting.i"
 	@echo "... src/lighting.s"
@@ -1860,9 +1833,9 @@ help:
 	@echo "... src/ray.o"
 	@echo "... src/ray.i"
 	@echo "... src/ray.s"
-	@echo "... src/util.o"
-	@echo "... src/util.i"
-	@echo "... src/util.s"
+	@echo "... src/setting.o"
+	@echo "... src/setting.i"
+	@echo "... src/setting.s"
 	@echo "... src/vector.o"
 	@echo "... src/vector.i"
 	@echo "... src/vector.s"

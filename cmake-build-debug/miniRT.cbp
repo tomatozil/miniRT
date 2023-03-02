@@ -239,9 +239,6 @@
 		<Unit filename="/Users/jiyun/miniRT/src/key_rotate_util.c">
 			<Option target="miniRT"/>
 		</Unit>
-		<Unit filename="/Users/jiyun/miniRT/src/key_util.c">
-			<Option target="miniRT"/>
-		</Unit>
 		<Unit filename="/Users/jiyun/miniRT/src/lighting.c">
 			<Option target="miniRT"/>
 		</Unit>
@@ -266,7 +263,7 @@
 		<Unit filename="/Users/jiyun/miniRT/src/ray.c">
 			<Option target="miniRT"/>
 		</Unit>
-		<Unit filename="/Users/jiyun/miniRT/src/util.c">
+		<Unit filename="/Users/jiyun/miniRT/src/setting.c">
 			<Option target="miniRT"/>
 		</Unit>
 		<Unit filename="/Users/jiyun/miniRT/src/vector.c">

@@ -11,9 +11,8 @@ add_executable(miniRT
         src/ray.c
         src/object.c
         src/hit.c
-        src/util.c
+        src/setting.c
         src/lighting.c
-        src/key.c
         src/parse_file.c
         src/parse_major_object.c
         src/parse_minor_object.c
@@ -22,7 +21,7 @@ add_executable(miniRT
         src/key_move_util.c
         src/key_rotate.c
         src/key_rotate_util.c
-        src/key_util.c
+        src/key.c
         libft/ft_isdigit.c
         libft/ft_isalnum.c
         libft/ft_isascii.c

@@ -1,6 +1,5 @@
 #include "minirt.h"
 
-/* 물체 이동 (카메라가 보는 방향 기준에서 이동) */
 void	key_move(void *clicked, int type, t_vec3 dir, int keycode)
 {
     if (type == PLANE)

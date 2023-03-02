@@ -1,5 +1,4 @@
-CMakeFiles/miniRT.dir/src/parse_file.c.o: \
-  /Users/jiyun/miniRT/src/parse_file.c \
+CMakeFiles/miniRT.dir/src/setting.c.o: /Users/jiyun/miniRT/src/setting.c \
   /Users/jiyun/miniRT/includes/minirt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/fcntl.h \

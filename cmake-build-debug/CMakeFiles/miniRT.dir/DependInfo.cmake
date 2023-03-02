@@ -61,7 +61,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/jiyun/miniRT/src/key_move_util.c" "CMakeFiles/miniRT.dir/src/key_move_util.c.o" "gcc" "CMakeFiles/miniRT.dir/src/key_move_util.c.o.d"
   "/Users/jiyun/miniRT/src/key_rotate.c" "CMakeFiles/miniRT.dir/src/key_rotate.c.o" "gcc" "CMakeFiles/miniRT.dir/src/key_rotate.c.o.d"
   "/Users/jiyun/miniRT/src/key_rotate_util.c" "CMakeFiles/miniRT.dir/src/key_rotate_util.c.o" "gcc" "CMakeFiles/miniRT.dir/src/key_rotate_util.c.o.d"
-  "/Users/jiyun/miniRT/src/key_util.c" "CMakeFiles/miniRT.dir/src/key_util.c.o" "gcc" "CMakeFiles/miniRT.dir/src/key_util.c.o.d"
   "/Users/jiyun/miniRT/src/lighting.c" "CMakeFiles/miniRT.dir/src/lighting.c.o" "gcc" "CMakeFiles/miniRT.dir/src/lighting.c.o.d"
   "/Users/jiyun/miniRT/src/main.c" "CMakeFiles/miniRT.dir/src/main.c.o" "gcc" "CMakeFiles/miniRT.dir/src/main.c.o.d"
   "/Users/jiyun/miniRT/src/object.c" "CMakeFiles/miniRT.dir/src/object.c.o" "gcc" "CMakeFiles/miniRT.dir/src/object.c.o.d"
@@ -70,7 +69,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/jiyun/miniRT/src/parse_minor_object.c" "CMakeFiles/miniRT.dir/src/parse_minor_object.c.o" "gcc" "CMakeFiles/miniRT.dir/src/parse_minor_object.c.o.d"
   "/Users/jiyun/miniRT/src/parse_util.c" "CMakeFiles/miniRT.dir/src/parse_util.c.o" "gcc" "CMakeFiles/miniRT.dir/src/parse_util.c.o.d"
   "/Users/jiyun/miniRT/src/ray.c" "CMakeFiles/miniRT.dir/src/ray.c.o" "gcc" "CMakeFiles/miniRT.dir/src/ray.c.o.d"
-  "/Users/jiyun/miniRT/src/util.c" "CMakeFiles/miniRT.dir/src/util.c.o" "gcc" "CMakeFiles/miniRT.dir/src/util.c.o.d"
+  "/Users/jiyun/miniRT/src/setting.c" "CMakeFiles/miniRT.dir/src/setting.c.o" "gcc" "CMakeFiles/miniRT.dir/src/setting.c.o.d"
   "/Users/jiyun/miniRT/src/vector.c" "CMakeFiles/miniRT.dir/src/vector.c.o" "gcc" "CMakeFiles/miniRT.dir/src/vector.c.o.d"
   )
 

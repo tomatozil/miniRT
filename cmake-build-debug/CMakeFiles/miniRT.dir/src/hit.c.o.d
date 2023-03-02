@@ -102,10 +102,10 @@ CMakeFiles/miniRT.dir/src/hit.c.o: /Users/jiyun/miniRT/src/hit.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/include/gethostuuid.h \
-  /Users/jiyun/miniRT/includes/vector.h \
   /Users/jiyun/miniRT/includes/structures.h \
+  /Users/jiyun/miniRT/includes/vector.h \
   /Users/jiyun/miniRT/includes/parse.h \
   /Users/jiyun/miniRT/includes/ray.h /Users/jiyun/miniRT/includes/hit.h \
-  /Users/jiyun/miniRT/includes/util.h \
+  /Users/jiyun/miniRT/includes/setting.h \
   /Users/jiyun/miniRT/includes/object.h \
   /Users/jiyun/miniRT/includes/key_map.h

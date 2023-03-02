@@ -1,6 +1,13 @@
 #ifndef STRUCTURES_H
 #define STRUCTURES_H
 
+typedef enum e_info_type
+{
+	AMB	= 0x0001,
+	CAM	= 0x0002,
+	LIT	= 0x0004,
+}	t_info_type;
+
 typedef enum e_obj_type
 {
 	SPHERE,
@@ -52,8 +59,8 @@ typedef struct s_sphere
 {
 	t_point3	point;
 	t_color3	rgb;
-	double		radius; //-> diameter / 2.0 (결과가 double 이어야함)
-	double 		radius_d; //-> radius * radius
+	double		radius;
+	double 		radius_d;
 }	t_sphere;
 
 typedef struct s_plane
@@ -68,8 +75,8 @@ typedef struct	s_cylinder
 	t_point3	point;
 	t_vec3		dir;
 	t_color3	rgb;
-	double 		radius; //-> diameter / 2.0 (결과가 double 이어야함)
-	double 		radius_d; //-> radius * radius
+	double 		radius;
+	double 		radius_d;
 	double 		height;
 }	t_cylinder;
 
@@ -78,8 +85,8 @@ typedef struct s_hit_record
 	t_point3	hit_point;
 	t_vec3		normal_v;
 	double		t;
-	double		t_min; // t가 음수면 광선이 뒤를 향하는 것 = 카메라 뒤에 있는 것
-	double 		t_max; // 너무 멀 경우
+	double		t_min;
+	double 		t_max;
 	double		front_face;
 	t_color3	rgb;
 }	t_hit_record;
@@ -109,7 +116,7 @@ typedef struct s_info
 	t_cam			cam;
 	t_object		*objects;
 	t_light			light;
-	t_ambient		ambient; //추후 t_ambient
+	t_ambient		ambient;
 	t_ray			ray;
 	t_hit_record	rec;
 	void			*clicked;

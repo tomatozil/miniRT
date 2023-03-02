@@ -51,13 +51,3 @@ t_cylinder	*cylinder(t_point3 center, t_vec3 dir, t_color3 rgb, double radius, d
 	new->height = height;
 	return (new);
 }
-
-t_light	light_set(t_point3 light_origin, t_color3 light_amount, double bright_ratio)
-{
-	t_light	new;
-
-	new.origin = light_origin;
-	new.amount = light_amount;
-	new.ratio = bright_ratio;
-	return (new);
-}

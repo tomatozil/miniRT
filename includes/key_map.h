@@ -12,17 +12,19 @@
 # define KEY_Q 12
 # define KEY_W 13
 # define KEY_E 14
-# define KEY_O 31
 
 # define KEY_DELETE 51
 # define KEY_ESC 53
 # define KEY_L 37
 # define KEY_C 8
+# define KEY_O 31
 
 # define KEY_LEFT 123
 # define KEY_RIGHT 124
 # define KEY_UP 125
 # define KEY_DOWN 126
+# define KEY_COMMA 43
+# define KEY_DOT 47
 
 /* key valid */
 int		is_move_key(int keycode);

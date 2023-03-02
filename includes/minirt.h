@@ -8,12 +8,12 @@
 # include "../mlx/mlx.h"
 
 # include "libft.h"
-//# include "structures.h"
+# include "structures.h"
 # include "vector.h"
 # include "parse.h"
 # include "ray.h"
 # include "hit.h"
-# include "util.h"
+# include "setting.h"
 # include "object.h"
 # include "key_map.h"
 
@@ -29,16 +29,7 @@
 # define YELLOW "\033[0;33m"
 # define BLUE "\033[0;36m"
 
-typedef enum e_info_type
-{
-	AMB	= 0x0001,
-	CAM	= 0x0002,
-	LIT	= 0x0004,
-}	t_info_type;
-
-void	tmp_init(t_info *info);
-
-void draw(t_info *info);
+void	draw(t_info *info);
 void	cam_setting(t_cam *cam);
 t_vec3	cam_set_vup(t_vec3 dir);
 
