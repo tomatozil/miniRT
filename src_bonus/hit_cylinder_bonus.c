@@ -1,6 +1,6 @@
 #include "minirt_bonus.h"
 
-t_vec3	get_cylin_normal_v(t_cylinder *cylin, t_point3 hit_point)
+t_vec3	get_cylin_normal(t_cylinder *cylin, t_point3 hit_point)
 {
 	double	hit_height;
 	t_vec3	hit_height_center;
@@ -20,16 +20,17 @@ int	hit_body(t_cylinder *cylin, t_point3 hit_point)
 	return (TRUE);
 }
 
-int	hit_cylinder_cap(t_object *object, t_ray ray, t_hit_record *rec, double cap_dir)
+int	hit_cylinder_cap(t_object *object, t_ray ray, t_hit_record *rec, double dir)
 {
 	t_cylinder	*cylin;
+	t_point3	center;
 	double		numerator;
 	double		denominator;
 	double		root;
 
 	cylin = (t_cylinder *)object->element;
-	t_point3 center = plus(cylin->point, \
-	mult_t(cylin->dir, cylin->height / 2 * cap_dir));
+	center = plus(cylin->point, \
+	mult_t(cylin->dir, cylin->height / 2 * dir));
 	denominator = dot(ray.dir, cylin->dir);
 	if (fabs(denominator) < EPSILON)
 		return (FALSE);
@@ -68,7 +69,7 @@ int	hit_cylinder_body(t_object *object, t_ray ray, t_hit_record *rec)
 		return (FALSE);
 	rec->t = d.root;
 	rec->hit_point = ray_dest(ray, d.root);
-	rec->normal = get_cylin_normal_v(cylin, rec->hit_point);
+	rec->normal = get_cylin_normal(cylin, rec->hit_point);
 	rec->rgb = cylin->rgb;
 	set_face_normal(ray, rec);
 	rec->t_max = rec->t;

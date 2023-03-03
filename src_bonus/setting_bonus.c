@@ -10,7 +10,8 @@ void	mlx_setting(t_info *info)
 	if (!info->img)
 		info->img = mlx_new_image(info->mlx, WIDTH, HEIGHT);
 	if (!info->addr)
-		info->addr = mlx_get_data_addr(info->img, &info->bits_per_pixel, &info->size_line, &info->endian);
+		info->addr = mlx_get_data_addr(info->img, &info->bits_per_pixel, \
+		&info->size_line, &info->endian);
 }
 
 t_vec3	cam_set_vup(t_vec3 dir)

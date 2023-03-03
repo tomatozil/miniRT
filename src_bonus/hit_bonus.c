@@ -15,7 +15,7 @@ void	get_discriminant_cy(t_discriminant *d, t_cylinder *cy, t_ray ray)
 {
 	t_vec3	ray_to_center;
 
-	ray_to_center = minus(ray.origin, cy->point); // (O - C)
+	ray_to_center = minus(ray.origin, cy->point);
 	d->a = vlen_d(cross(ray.dir, cy->dir));
 	d->b = dot(cross(ray.dir, cy->dir), cross(ray_to_center, cy->dir));
 	d->c = vlen_d(cross(ray_to_center, cy->dir)) - cy->radius_d;

@@ -49,16 +49,19 @@ t_color3	get_light_amount(t_info *info, t_light light)
 
 t_color3	lighting_set(t_info *info)
 {
-	t_color3	light_amount;
+	t_color3	l_amount;
 	t_light		light;
 
-	light_amount = color3(0, 0, 0);
+	l_amount = color3(0, 0, 0);
 	light = info->light;
 
-	light_amount = plus(light_amount, get_light_amount(info, light));
-	light_amount = plus(light_amount, info->ambient.amount);
-	light_amount = color3(light_amount.x * info->rec.rgb.x, \
-	light_amount.y * info->rec.rgb.y, \
-	light_amount.z * info->rec.rgb.z);
-	return(color3(fmin(light_amount.x , 1.0), fmin(light_amount.y , 1.0), fmin(light_amount.z , 1.0)));
+	l_amount = plus(l_amount, get_light_amount(info, light));
+	l_amount = plus(l_amount, info->ambient.amount);
+	l_amount = color3(l_amount.x * info->rec.rgb.x, \
+	l_amount.y * info->rec.rgb.y, \
+	l_amount.z * info->rec.rgb.z);
+	l_amount.x = fmin(l_amount.x , 1.0);
+	l_amount.y = fmin(l_amount.y , 1.0);
+	l_amount.z = fmin(l_amount.z , 1.0);
+	return(l_amount);
 }

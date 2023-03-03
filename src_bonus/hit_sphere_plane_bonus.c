@@ -18,7 +18,8 @@ int	hit_sphere(t_object *object, t_ray ray, t_hit_record *rec)
 	}
 	rec->t = d.root;
 	rec->hit_point = ray_dest(ray, d.root);
-	rec->normal = devide_t(minus(rec->hit_point, sphere->point), sphere->radius);
+	rec->normal = devide_t(minus(rec->hit_point, sphere->point), \
+	sphere->radius);
 	rec->rgb = sphere->rgb;
 	set_face_normal(ray, rec);
 	rec->t_max = rec->t;
