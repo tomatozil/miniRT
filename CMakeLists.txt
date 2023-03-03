@@ -2,14 +2,19 @@ cmake_minimum_required(VERSION 3.23)
 project(miniRT C)
 
 set(CMAKE_C_STANDARD 99)
-set(CMAKE_C_FLAGS "-lmlx -L../mlx")
+set(CMAKE_C_FLAGS "-lmlx -L../mlx_mms")
 include_directories(includes)
+include_directories(includes_bonus)
 
 add_executable(miniRT
         src/main.c
-        src/vector.c
+        src/vector1.c
+        src/vector2.c
+        src/vector3.c
         src/ray.c
         src/hit.c
+        src/hit_sphere_plane.c
+        src/hit_cylinder.c
         src/setting.c
         src/lighting.c
         src/parse_file.c
@@ -21,6 +26,25 @@ add_executable(miniRT
         src/key_rotate.c
         src/key_rotate_util.c
         src/key.c
+        src_bonus/main_bonus.c
+        src_bonus/vector1_bonus.c
+        src_bonus/vector2_bonus.c
+        src_bonus/vector3_bonus.c
+        src_bonus/ray_bonus.c
+        src_bonus/hit_bonus.c
+        src_bonus/hit_sphere_plane_bonus.c
+        src_bonus/hit_cylinder_bonus.c
+        src_bonus/setting_bonus.c
+        src_bonus/lighting_bonus.c
+        src_bonus/parse_file_bonus.c
+        src_bonus/parse_major_object_bonus.c
+        src_bonus/parse_minor_object_bonus.c
+        src_bonus/parse_util_bonus.c
+        src_bonus/key_move_bonus.c
+        src_bonus/key_move_util_bonus.c
+        src_bonus/key_rotate_bonus.c
+        src_bonus/key_rotate_util_bonus.c
+        src_bonus/key_bonus.c
         libft/ft_isdigit.c
         libft/ft_isalnum.c
         libft/ft_isascii.c

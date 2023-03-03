@@ -41,8 +41,8 @@ void	cam_setting(t_cam *cam)
 
 void	free_objects(t_info *info)
 {
-	t_object *lst;
-	t_object *to_del;
+	t_object	*lst;
+	t_object	*to_del;
 
 	lst = info->objects;
 	if (!lst)

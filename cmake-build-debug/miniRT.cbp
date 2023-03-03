@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="miniRT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jiyun/miniRT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miniRT">
+				<Option output="/Users/jiyun/miniRT/cmake-build-debug/miniRT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiyun/miniRT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jiyun/miniRT/includes"/>
+					<Add directory="/Users/jiyun/miniRT/includes_bonus"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 miniRT"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miniRT/fast">
+				<Option output="/Users/jiyun/miniRT/cmake-build-debug/miniRT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiyun/miniRT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jiyun/miniRT/includes"/>
+					<Add directory="/Users/jiyun/miniRT/includes_bonus"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 miniRT/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jiyun/miniRT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jiyun/miniRT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jiyun/miniRT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_atod.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_atoi.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_bzero.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_calloc.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_error.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_free_strs.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_isalnum.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_isascii.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_isdigit.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_isprint.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_itoa.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_lstadd_back.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_lstadd_front.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_lstclear.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_lstdelone.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_lstiter.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_lstlast.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_lstmap.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_lstnew.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_lstsize.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_memchr.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_memcmp.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_memcpy.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_memmove.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_memset.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_putchar_fd.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_putendl_fd.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_putnbr_fd.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_putstr_fd.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_split.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strchr.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strcmp.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strdup.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_striteri.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strjoin.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strlcat.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strlcpy.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strlen.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strmapi.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strncmp.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strnstr.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strrchr.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strslen.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_strtrim.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_substr.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_tolower.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/libft/ft_toupper.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/hit.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/hit_cylinder.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/hit_sphere_plane.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/key.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/key_move.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/key_move_util.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/key_rotate.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/key_rotate_util.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/lighting.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/main.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/parse_file.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/parse_major_object.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/parse_minor_object.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/parse_util.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/ray.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/setting.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/vector1.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/vector2.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src/vector3.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/hit_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/hit_cylinder_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/hit_sphere_plane_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/key_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/key_move_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/key_move_util_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/key_rotate_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/key_rotate_util_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/lighting_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/main_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/parse_file_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/parse_major_object_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/parse_minor_object_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/parse_util_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/ray_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/setting_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/vector1_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/vector2_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/src_bonus/vector3_bonus.c">
+			<Option target="miniRT"/>
+		</Unit>
+		<Unit filename="/Users/jiyun/miniRT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

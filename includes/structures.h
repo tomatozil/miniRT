@@ -83,7 +83,7 @@ typedef struct	s_cylinder
 typedef struct s_hit_record
 {
 	t_point3	hit_point;
-	t_vec3		normal_v;
+	t_vec3		normal;
 	double		t;
 	double		t_min;
 	double 		t_max;
@@ -103,6 +103,26 @@ typedef struct s_ambient
 	t_color3	amount;
 	double		ratio;
 }	t_ambient;
+
+typedef struct s_discriminant
+{
+	double a;
+	double b;
+	double c;
+	double disc;
+	double root;
+}	t_discriminant;
+
+typedef struct s_phong_light
+{
+	t_color3	diffuse;
+	double 		diff_stren;
+	t_vec3		l_dir;
+	t_vec3		reflect;
+	t_vec3		view;
+	double		similar;
+	t_color3	specular;
+}	t_phong_light;
 
 typedef struct s_info
 {

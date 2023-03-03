@@ -11,42 +11,40 @@ int	in_shadow(t_object *objects, t_ray light_ray, double light_len)
 	return (FALSE);
 }
 
-t_color3	get_light_amount(t_info *info, t_light	light)
+int	check_in_shadow(t_info *info, t_light light, t_phong_light *pl)
 {
-	t_color3	diffuse;
-	t_color3	specular;
-	t_vec3		light_dir;
-	t_vec3		reflect_dir;
-	t_vec3		view_dir;
-	t_vec3		a;
-	t_ray		r_light_ray;
-	double		light_len;
-	double		similar;
-	double		shininess;
-	double 		spec_strength;
-	double 		diff_strength;
-	double		brightness;
+	double	light_len;
+	t_ray	r_light_ray;
 
-	light_dir = minus(light.origin, info->rec.hit_point);
-	light_len = vlen(light_dir);
-	r_light_ray = ray_set(plus(info->rec.hit_point, mult_t(info->rec.normal_v, EPSILON)), unit(light_dir));
+	pl->l_dir = minus(light.origin, info->rec.hit_point);
+	light_len = vlen(pl->l_dir);
+	r_light_ray = ray_set(plus(info->rec.hit_point, \
+	mult_t(info->rec.normal, EPSILON)), unit(pl->l_dir));
 	if (in_shadow(info->objects, r_light_ray, light_len))
+		return (TRUE);
+	return (FALSE);
+}
+
+t_color3	get_light_amount(t_info *info, t_light light)
+{
+	t_phong_light	pl;
+	t_vec3			project;
+	double			brightness;
+
+	if (check_in_shadow(info, light, &pl))
 		return (color3(0, 0, 0));
-
-	light_dir = unit(light_dir);
-	diff_strength = fmax(dot(light_dir, info->rec.normal_v), 0.0);
-	diffuse = mult_t(light.amount, diff_strength);
-
-	a = mult_t(info->rec.normal_v, dot(light_dir, info->rec.normal_v));
-	reflect_dir = plus(mult_t(light_dir, -1.0), mult_t(a, 2.0));
-	view_dir = unit(mult_t(info->ray.dir, -1.0));
-	shininess = 64;
-	spec_strength = 0.5;
-	similar = pow(fmax(dot(reflect_dir, view_dir), 0.0), shininess);
-	specular = mult_t(mult_t(light.amount, similar), spec_strength);
+	pl.l_dir = unit(pl.l_dir);
+	pl.diff_stren = fmax(dot(pl.l_dir, info->rec.normal), 0.0);
+	pl.diffuse = mult_t(light.amount, pl.diff_stren);
+	project = mult_t(info->rec.normal, dot(pl.l_dir, info->rec.normal));
+	pl.reflect = plus(mult_t(pl.l_dir, -1.0), \
+	mult_t(project, 2.0));
+	pl.view = unit(mult_t(info->ray.dir, -1.0));
+	pl.similar = pow(fmax(dot(pl.reflect, pl.view), 0.0), SHININESS);
+	pl.specular = mult_t(mult_t(light.amount, pl.similar), SPEC_STREN);
 
 	brightness = light.ratio * LUMEN;
-	return (mult_t(plus(diffuse, specular), brightness));
+	return (mult_t(plus(pl.diffuse, pl.specular), brightness));
 }
 
 t_color3	lighting_set(t_info *info)

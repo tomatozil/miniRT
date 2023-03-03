@@ -14,10 +14,10 @@ static void	parse(char *argv, t_info *info)
 	cam_setting(&info->cam);
 }
 
-void draw(t_info *info)
+void	draw(t_info *info)
 {
 	int			i;
-	int 		j;
+	int			j;
 	char		*dst;
 	t_color3	colors;
 
@@ -49,9 +49,9 @@ int	red_button(int exitcode, t_info *info)
 	exit(exitcode);
 }
 
-int main(int argc, char *argv[])
+int	main(int argc, char *argv[])
 {
-	t_info		info;
+	t_info	info;
 
 	ft_memset(&info, 0, sizeof(t_info));
 	if (argc != 2)
